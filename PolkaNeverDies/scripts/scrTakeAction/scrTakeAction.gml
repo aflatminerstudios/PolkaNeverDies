@@ -7,6 +7,7 @@ var act = argument0;
 show_debug_message("Taking action " + act);
 
 switch(act) {
+  
   case "right":
     var who = instance_find(objBandRight, 0);
     scrMoveCharacter(who);
@@ -23,4 +24,7 @@ switch(act) {
     var who = instance_find(objBandUp, 0);
     scrMoveCharacter(who);
     break;    
+  default:
+    show_debug_message("Invalid action");
+    
 }
