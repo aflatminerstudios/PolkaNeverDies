@@ -10,7 +10,8 @@
         "f6a76d10-014f-4f63-8504-42650ea1bbcd",
         "e190b776-bd14-4c49-be1d-55ecd0a0567d",
         "3c04a161-b1bd-4678-9f29-d2141d173873",
-        "f17c4729-1c78-4895-9616-9d4cbd2a19fc"
+        "f17c4729-1c78-4895-9616-9d4cbd2a19fc",
+        "1fe02ac9-5fd7-4cfd-995d-c1f180964dee"
     ],
     "filterType": "GMScript",
     "folderName": "Input",
