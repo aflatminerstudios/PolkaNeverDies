@@ -8,11 +8,11 @@ badString = " ";
 //Used for checking after beat
 postCheck = false;
 postCheckCount = 0;
-postCheckMax = 5;
+postCheckMax = 10;
 
 
 //Creates a buffer of bufferSize size to keep track of inputs
-bufferSize = 20;
+bufferSize = 15;
 //if (instance_find(objBeat, 0)) {
   //bufferSize = objBeat.bpm / 2; 
 //}

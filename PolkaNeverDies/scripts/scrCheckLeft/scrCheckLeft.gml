@@ -2,6 +2,6 @@
 /// @func scrCheckLeft()
 
 
-if (keyboard_check(vk_left)) {
+if (keyboard_check_pressed(vk_left)) {
   return true;
 }

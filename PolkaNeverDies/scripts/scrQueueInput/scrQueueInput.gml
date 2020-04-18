@@ -5,6 +5,10 @@
 var which = argument0;
 
 if (which != " ") {
+  
+  with (objBeatBuffer) {
+    ds_list_add(commands, which);
+  }
   show_debug_message("Queuing " + which);
   scrEmptyBuffer();
 }

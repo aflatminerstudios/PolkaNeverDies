@@ -12,4 +12,8 @@ scrResetBeat();
 playMetronome = false;
 playSong = false;
 
-song = sndMusic_34_120;
+song = sndMusic_34_100;
+
+activeMeasure = true;
+
+instance_create_layer(0, 0, layer, objBeatBuffer);

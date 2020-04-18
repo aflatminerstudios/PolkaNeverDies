@@ -3,14 +3,14 @@
 //Finds last buffer element that wasn't empty
 with (objInputControl) {
   
-//Print Buffer
+/*//Print Buffer
 var s = "";
 for (var i = 0; i < bufferSize -1; ++i) {
   s = s + " : " + buffer[i]; 
 }
 
 show_debug_message(s);
-
+*/
 
   if (!badInput) {
   

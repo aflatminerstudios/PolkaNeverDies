@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1fe02ac9-5fd7-4cfd-995d-c1f180964dee",
+            "Value": {
+                "id": "4b755fa2-2e1c-4572-906e-2449b19fc1db",
+                "resourcePath": "scripts\\scrTakeAction\\scrTakeAction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "212045de-d5b1-46cd-9e28-b6ccca430691",
             "Value": {
                 "id": "7841ebac-38c4-4d8b-99ce-f29e515b262c",
@@ -195,6 +203,14 @@
             "Value": {
                 "id": "9072c837-8d2e-46a1-a909-3f7e462299c0",
                 "resourcePath": "scripts\\scrChangeBeatMeasure\\scrChangeBeatMeasure.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "65cefadc-61ae-4f23-a8b5-30ec416cb141",
+            "Value": {
+                "id": "3deeb788-51ca-40bf-add5-c2b9c4ae4921",
+                "resourcePath": "scripts\\scrCheckRecipes\\scrCheckRecipes.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "e10182ea-fe73-4395-9b73-ba7568f4490c",
+            "Value": {
+                "id": "aca4bac9-e1d0-45c6-8b8e-1fffb9226f64",
+                "resourcePath": "objects\\objBeatBuffer\\objBeatBuffer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e190b776-bd14-4c49-be1d-55ecd0a0567d",
             "Value": {
                 "id": "b2169c61-7a65-4dd2-bb34-3151c6a80af6",
@@ -556,6 +580,14 @@
                 "id": "e1a76d18-acc3-48a2-a440-8d56cf4916cf",
                 "resourcePath": "views\/eff7419d-03ff-40c8-928f-15b9b993ec52.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f019373d-b14c-4d35-81b5-e8cc3a13ab5f",
+            "Value": {
+                "id": "7a610634-143e-40ad-9f2d-8fe77076d14a",
+                "resourcePath": "scripts\\scrBuildRecipeList\\scrBuildRecipeList.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -652,7 +684,10 @@
         "f6a76d10-014f-4f63-8504-42650ea1bbcd",
         "e190b776-bd14-4c49-be1d-55ecd0a0567d",
         "3c04a161-b1bd-4678-9f29-d2141d173873",
-        "f17c4729-1c78-4895-9616-9d4cbd2a19fc"
+        "f17c4729-1c78-4895-9616-9d4cbd2a19fc",
+        "f019373d-b14c-4d35-81b5-e8cc3a13ab5f",
+        "65cefadc-61ae-4f23-a8b5-30ec416cb141",
+        "1fe02ac9-5fd7-4cfd-995d-c1f180964dee"
     ],
     "tutorial": ""
 }
