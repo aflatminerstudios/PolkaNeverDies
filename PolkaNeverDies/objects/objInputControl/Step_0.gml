@@ -46,7 +46,7 @@ if (!postCheck) {
       scrQueueInput(input);
       postCheckCount = 0;
       postCheck = false;
-      show_debug_message("Correct in post");
+     // show_debug_message("Correct in post");
      }     
   }
 }
