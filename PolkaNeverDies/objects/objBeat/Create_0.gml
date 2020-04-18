@@ -1,4 +1,4 @@
-/// @description Create basic variables
+/// @description Initialize variables
 // You can write your code in this editor
 
 measure = 3;
@@ -12,4 +12,8 @@ scrResetBeat();
 playMetronome = false;
 playSong = false;
 
-song = sndTest1_34_100bpm;
+song = sndMusic_34_100;
+
+activeMeasure = true;
+
+instance_create_layer(0, 0, layer, objBeatBuffer);
