@@ -27,7 +27,8 @@ show_debug_message(s);
       while (j < bufferSize - 1) {                  
          //There was previous input that didn't match
          if (buffer[j] != " " && buffer[j] != buffer[i]) {
-          show_debug_message(buffer[j] + " - Off Beat because interaction"); 
+          //show_debug_message(buffer[j] + " - Off Beat because interaction"); 
+          scrQueueInput("bad" + buffer[j]);
           scrEmptyBuffer();
           return;
          }

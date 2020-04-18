@@ -26,10 +26,9 @@ if (!postCheck) {
 
     //If something comes off the end of the buffer, it is wrong
     if (top != " ") {
-      show_debug_message(top + " - off beat");  
       badInput = true;
-      badString = top;    
-    
+      badString = "bad" + top;    
+      scrQueueInput(badString);
     }
 
   }
