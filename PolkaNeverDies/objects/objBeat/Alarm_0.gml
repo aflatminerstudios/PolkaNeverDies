@@ -1,6 +1,9 @@
 /// @description Every Beat
 // This is what happens every beat
 
+
+
+
 if (curBeat != 0) {
   if (playMetronome) {
     audio_play_sound(sndBeat, 100, false); 
@@ -14,7 +17,8 @@ curBeat += 1;
 curBeat %= measure;
 totalBeat += 1;
 
+
 alarm[0] = room_speed * (60/bpm);  
 
-
+scrBeatHandleInput();
 
