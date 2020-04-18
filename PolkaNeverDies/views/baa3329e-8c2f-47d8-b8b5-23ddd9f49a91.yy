@@ -5,7 +5,10 @@
     "name": "baa3329e-8c2f-47d8-b8b5-23ddd9f49a91",
     "children": [
         "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b",
-        "7834aa23-f688-43de-89ed-c1e4abf15fc6"
+        "7834aa23-f688-43de-89ed-c1e4abf15fc6",
+        "8ed4469d-45eb-490e-ba2a-7a9a627fb74e",
+        "488e7eb4-e584-4e9c-ace9-90a43a348a36",
+        "5a215956-373d-47a1-940c-a4dff98c71f9"
     ],
     "filterType": "GMObject",
     "folderName": "Band",

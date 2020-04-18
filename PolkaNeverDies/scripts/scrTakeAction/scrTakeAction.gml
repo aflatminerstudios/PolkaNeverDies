@@ -5,3 +5,22 @@
 var act = argument0;
 
 show_debug_message("Taking action " + act);
+
+switch(act) {
+  case "right":
+    var who = instance_find(objBandRight, 0);
+    scrMoveCharacter(who);
+    break;
+  case "left":
+    var who = instance_find(objBandLeft, 0);
+    scrMoveCharacter(who);
+    break;
+  case "down":
+    var who = instance_find(objBandDown, 0);
+    scrMoveCharacter(who);
+    break;
+  case "up":
+    var who = instance_find(objBandUp, 0);
+    scrMoveCharacter(who);
+    break;    
+}

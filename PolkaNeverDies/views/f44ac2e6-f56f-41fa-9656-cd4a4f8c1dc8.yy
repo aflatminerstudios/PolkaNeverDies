@@ -12,7 +12,8 @@
         "91d79fc5-b572-4ae4-abba-46ee35fe3a7f",
         "f219444e-77fc-47e7-a277-78171ae529ac",
         "f019373d-b14c-4d35-81b5-e8cc3a13ab5f",
-        "65cefadc-61ae-4f23-a8b5-30ec416cb141"
+        "65cefadc-61ae-4f23-a8b5-30ec416cb141",
+        "4eccb319-88f7-41e5-9465-4b5c6074b5c4"
     ],
     "filterType": "GMScript",
     "folderName": "John",
