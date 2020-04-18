@@ -1,0 +1,2 @@
+a = metronome on/off
+s = play song on/off 
