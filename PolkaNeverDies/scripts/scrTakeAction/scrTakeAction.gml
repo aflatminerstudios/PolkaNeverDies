@@ -22,6 +22,10 @@ switch(act) {
     var who = instance_find(objBandUp, 0);
     scrMoveCharacter(who);
     break;    
+  case "jump":
+    with (objBand) {
+      scrJumpCharacter(self.id); 
+    }
   default:
     //show_debug_message("Invalid action");
     

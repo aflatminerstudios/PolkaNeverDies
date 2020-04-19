@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "8659c2ed-8477-48d0-bd6c-4893945ff203",
+            "Value": {
+                "id": "a6d31ebb-f9af-4f08-aa24-d4609d1cbe91",
+                "resourcePath": "scripts\\scrJumpCharacter\\scrJumpCharacter.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8a088e2f-add4-4c7a-8c2f-3520c32400b6",
             "Value": {
                 "id": "ecaa0d0c-10b4-4879-827d-e5c08689c770",
@@ -863,9 +871,10 @@
         "d122d718-df05-4914-a027-801fb0b22138",
         "f019373d-b14c-4d35-81b5-e8cc3a13ab5f",
         "65cefadc-61ae-4f23-a8b5-30ec416cb141",
-        "4eccb319-88f7-41e5-9465-4b5c6074b5c4",
         "9ceac099-3dc2-457d-b855-de14c2a8acad",
-        "f7443610-cf78-45ee-b8b3-deb393a87e02"
+        "f7443610-cf78-45ee-b8b3-deb393a87e02",
+        "4eccb319-88f7-41e5-9465-4b5c6074b5c4",
+        "8659c2ed-8477-48d0-bd6c-4893945ff203"
     ],
     "tutorial": ""
 }

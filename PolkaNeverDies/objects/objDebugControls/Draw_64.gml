@@ -28,4 +28,10 @@ if (displayDebug) {
     draw_text(500, 200, string(charList[curChar]) + " mvDist: " + string(curObj.forwardSteps));
   }
   
+  var theList = objBeatBuffer.commands;
+  for (var i = 0; i < ds_list_size(theList); ++i) {
+    draw_text(200, 50 + i * 50, theList[| i] + " ");
+  }
+  
+  
 }

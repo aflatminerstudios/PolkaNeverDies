@@ -24,10 +24,10 @@ if (instance_number(objBand) <= 0) {
 /// Check recipe list
 /// And take first action
 if (!activeMeasure) {
-  
+  //show_debug_message("Starting measure: " + string(ds_list_size(objBeatBuffer.commands)));
   if (ds_list_size(objBeatBuffer.commands) == measure) {
     var action = scrCheckRecipes();
-    show_debug_message("Starting measure: action = " + action);
+    show_debug_message("Got action: action = " + action);
   /*  var theList = objBeatBuffer.commands;
     if (action == " " && ds_list_size(theList) > 0) {
       action = theList[| 0];
