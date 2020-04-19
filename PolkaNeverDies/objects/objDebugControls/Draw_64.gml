@@ -3,11 +3,11 @@
 
 if (displayDebug) {
 
-  draw_text(50, 50, "Buffer size: " + string(objInputControl.bufferSize));
-  draw_text(50, 100, "Post size: " + string(objInputControl.postCheckMax));
-  draw_text(50, 150, "Horde Move: " + string(objHorde.moveSpeed));
+  draw_text(50, 50, "Buffer size (1/2): " + string(objInputControl.bufferSize));
+  draw_text(50, 100, "Post size (q/w): " + string(objInputControl.postCheckMax));
+  draw_text(50, 150, "Horde Move (g/h): " + string(objHorde.moveSpeed));
   
-  
+
   if (objInputControl.badInput) {
     draw_sprite(sprTestBand, 0, 800, 25);
   }
@@ -24,9 +24,11 @@ if (displayDebug) {
   }
   
   if (instance_number(curObj) > 0) {
-    draw_text(500, 150, string(charList[curChar]) + " mvSpd: " + string(curObj.forwardSpeed));
-    draw_text(500, 200, string(charList[curChar]) + " mvDist: " + string(curObj.forwardSteps));
+    draw_text(600, 100, "Change character (9/0)");
+    draw_text(600, 150, string(charList[curChar]) + " mvSpd (u/i): " + string(curObj.forwardSpeed));
+    draw_text(600, 200, string(charList[curChar]) + " mvDist (o/p): " + string(curObj.forwardSteps));
   }
+  
   
   var theList = objBeatBuffer.commands;
   for (var i = 0; i < ds_list_size(theList); ++i) {
