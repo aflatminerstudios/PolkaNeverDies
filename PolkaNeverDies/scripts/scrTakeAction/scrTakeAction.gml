@@ -4,8 +4,6 @@
 
 var act = argument0;
 
-show_debug_message("Taking action " + act);
-
 switch(act) {
   
   case "right":
@@ -25,6 +23,6 @@ switch(act) {
     scrMoveCharacter(who);
     break;    
   default:
-    show_debug_message("Invalid action");
+    //show_debug_message("Invalid action");
     
 }

@@ -30,6 +30,7 @@ show_debug_message(s);
           //show_debug_message(buffer[j] + " - Off Beat because interaction"); 
           scrQueueInput("bad" + buffer[j]);
           scrEmptyBuffer();
+          badInput = true;
           return;
          }
          j++;
@@ -38,7 +39,7 @@ show_debug_message(s);
       scrQueueInput(buffer[i]);    
       
     }
-
+    badInput = false;
   } else {
     badInput = false; 
     badString = " ";    
