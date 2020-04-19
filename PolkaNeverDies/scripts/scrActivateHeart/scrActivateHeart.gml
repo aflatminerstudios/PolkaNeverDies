@@ -1,6 +1,6 @@
 /// @func scrActivateHeart(which)
 /// @desc Activates heart
-/// @param which Which band member's heart to activate
+/// @param which Band member's heart to activate
 
 var which = argument0;
 

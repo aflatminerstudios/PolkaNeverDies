@@ -1,6 +1,6 @@
 /// @func scrZombifyHeart(which)
 /// @desc Zombifies heart
-/// @param which Which character's heart to zombify
+/// @param which Band member's heart to zombify
 
 var which = argument0;
 

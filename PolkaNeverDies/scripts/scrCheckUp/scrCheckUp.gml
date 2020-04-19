@@ -1,4 +1,5 @@
-/// @desc scrCheckUp() Checks for up input
+/// @desc Checks for up input
+/// @func scrCheckUp()
 
 
 if (keyboard_check_pressed(vk_up)) {

@@ -4,13 +4,15 @@
 
 var which = argument0;
 
+//If the command isn't empty
 if (which != " ") {
-  
+  //Adds the command to the buffer
   with (objBeatBuffer) {
     ds_list_add(commands, which);
   }
   //show_debug_message("Queuing " + which);
   
+  //Makes the heart full for the appropriate command
   switch(which) {
   
   case "right":
@@ -55,7 +57,11 @@ if (which != " ") {
   default:
     //show_debug_message("Invalid action");
   }
+  //Clears the buffer
   scrEmptyBuffer();
+  
+ //Lets input control know an input has been queued
+ //TODO: Maybe put postcheck=false here? That may get rid of the bug w/ last beat
  with (objInputControl) {
     hasInput = true;
  }

@@ -11,7 +11,9 @@
         "e190b776-bd14-4c49-be1d-55ecd0a0567d",
         "f17c4729-1c78-4895-9616-9d4cbd2a19fc",
         "1fe02ac9-5fd7-4cfd-995d-c1f180964dee",
-        "d122d718-df05-4914-a027-801fb0b22138"
+        "d122d718-df05-4914-a027-801fb0b22138",
+        "8659c2ed-8477-48d0-bd6c-4893945ff203",
+        "4eccb319-88f7-41e5-9465-4b5c6074b5c4"
     ],
     "filterType": "GMScript",
     "folderName": "Input",

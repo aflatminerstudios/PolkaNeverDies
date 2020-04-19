@@ -15,10 +15,6 @@ hasInput = false;
 
 //Creates a buffer of bufferSize size to keep track of inputs
 bufferSize = 25;
-//if (instance_find(objBeat, 0)) {
-  //bufferSize = objBeat.bpm / 2; 
-//}
-
 scrEmptyBuffer();
 
 

@@ -2,16 +2,18 @@
 // You can write your code in this editor
 
 if (!postCheck) {
-  //Moves everything down buffer 1
+  //Get what is about to move off buffer
+  var top = buffer[0];
+  
+  //Moves everything down buffer by 1
   for (var i = 0; i < bufferSize-1; ++i) {  
     buffer[i] = buffer[i + 1]; 
   }
 
 
+  //Don't process bad input more than once
   if (!badInput) {
-    var top = buffer[0];
-
-
+  
     //Fill buffer with input if appropriate
     buffer[bufferSize - 1] = scrCheckInput();
     
@@ -24,9 +26,10 @@ if (!postCheck) {
     show_debug_message(s);
     */
 
-    //If something comes off the end of the buffer, it is wrong
+    //If something came off the end of the buffer, it is invalid
     if (top != " ") {
       badInput = true;
+      //Add bad to set invalid
       badString = "bad" + top;    
       scrQueueInput(badString);
     }
@@ -34,13 +37,17 @@ if (!postCheck) {
   }
 
 }
-if (postCheck) { 
+if (postCheck) {   
+  //If in post-check, check for input
+  
   postCheckCount += 1;  
-  //show_debug_message("Postcheck: " + string(ds_list_size(objBeatBuffer.commands)));
+  
   if (postCheckCount > postCheckMax) {    
+    //At the end of postcheck, check if buffer matches number of beats
+    //This lets you process inputs JUST after the last beat of measure and still get credit
     if (ds_list_size(objBeatBuffer.commands) == objBeat.measure){
-      var action = scrCheckRecipes();
-     // show_debug_message("Checking Recipes: action = " + action);
+      //Treat as if on measure
+      var action = scrCheckRecipes();     
 
       if (action != " ") {
         while (ds_list_size(objBeatBuffer.commands) > 0) {
@@ -49,15 +56,16 @@ if (postCheck) {
         scrTakeAction(action);
       }
      }
+    //End post check
     postCheckCount = 0;
     postCheck = false;
     hasInput = false;
   } else {
+    //Get input and if valid, go to end of post check
     var input = scrCheckInput();
     if (input != " " && !hasInput) {
       scrQueueInput(input);
-      postCheckCount = postCheckMax;
-      //postCheck = false;    
+      postCheckCount = postCheckMax;      
       hasInput = true;    
     }
   }
