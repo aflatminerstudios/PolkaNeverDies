@@ -6,11 +6,12 @@ if (playMetronome) {
 }
 
 curMeasure += 1;
+totalMeasure += 1
 
 activeMeasure = !activeMeasure;
 
 //Temporary win/lose conditions
-if (curMeasure >= gameLength && instance_number(objBand) > 0) {
+if (totalMeasure >= gameLength && instance_number(objBand) > 0) {
   show_message("You made it " + string(gameLength) + " measures! You won!");
   room_restart();
 }
