@@ -1,18 +1,18 @@
 {
-    "id": "488e7eb4-e584-4e9c-ace9-90a43a348a36",
+    "id": "db15bafd-6aac-492a-825f-6a1f09c26050",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "objBandUp",
     "eventList": [
         {
-            "id": "4d3f761a-b682-4112-866f-2486aa6cda5d",
+            "id": "8911752d-a4ce-4d93-8ada-2ee9e41acd56",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "488e7eb4-e584-4e9c-ace9-90a43a348a36"
+            "m_owner": "db15bafd-6aac-492a-825f-6a1f09c26050"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

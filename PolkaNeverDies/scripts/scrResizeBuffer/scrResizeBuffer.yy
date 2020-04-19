@@ -1,5 +1,5 @@
 {
-    "id": "40c0eada-8e48-48b8-bebd-b4605144fe9a",
+    "id": "9ceac099-3dc2-457d-b855-de14c2a8acad",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "scrResizeBuffer",
