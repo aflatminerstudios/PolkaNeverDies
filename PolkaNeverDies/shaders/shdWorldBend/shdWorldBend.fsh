@@ -17,7 +17,7 @@ void main()
 	// Calculate the y distortion based on the position on the circle
 	angleInRadians = acos((v_vTexcoord.x - circleCenter.x)/radius);
 	
-	//distortion.x = 0;
+	distortion.x = 0.0;
 	distortion.y = radius - (radius * sin(angleInRadians));
   gl_FragColor = v_vColour * texture2D( gm_BaseTexture, v_vTexcoord - distortion);
 }
