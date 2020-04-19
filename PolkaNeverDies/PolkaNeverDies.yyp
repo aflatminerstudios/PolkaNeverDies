@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "a8168ec1-ecd1-4210-9c4d-90dc9ddde255",
+            "Value": {
+                "id": "0f112bfc-9862-4652-a0f9-5304b28e8256",
+                "resourcePath": "scripts\\scrPlayBadNote\\scrPlayBadNote.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a8cff6a1-21b0-42e8-a143-811a218455a5",
             "Value": {
                 "id": "4a5669a9-df0f-4708-879b-91ee3ffe5976",
@@ -572,6 +580,14 @@
                 "id": "2ec33dff-b7fe-4c66-8038-25a997e3c178",
                 "resourcePath": "objects\/objPostDraw\/objPostDraw.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b403f564-e169-40aa-bbaf-ca392ad76493",
+            "Value": {
+                "id": "935b2753-f52f-43ca-8e2d-1a5b96240cb1",
+                "resourcePath": "sounds\\sndBlat\\sndBlat.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -898,7 +914,8 @@
         "9ceac099-3dc2-457d-b855-de14c2a8acad",
         "f7443610-cf78-45ee-b8b3-deb393a87e02",
         "4eccb319-88f7-41e5-9465-4b5c6074b5c4",
-        "8659c2ed-8477-48d0-bd6c-4893945ff203"
+        "8659c2ed-8477-48d0-bd6c-4893945ff203",
+        "a8168ec1-ecd1-4210-9c4d-90dc9ddde255"
     ],
     "tutorial": ""
 }

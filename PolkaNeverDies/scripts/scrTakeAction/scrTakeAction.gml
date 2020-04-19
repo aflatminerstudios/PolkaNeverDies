@@ -25,7 +25,12 @@ switch(act) {
   case "jump":
     with (objBand) {
       scrJumpCharacter(self.id); 
-    }
+    }    
+  case "badleft":
+  case "badright":
+  case "badup":
+  case "baddown":
+    scrPlayBadNote(act);
   default:
     //show_debug_message("Invalid action");
     
