@@ -56,8 +56,6 @@ if (jumping) {
       jumping = false;
       landing = false;
       jumpCount = 0;
-      
-      show_debug_message("Landed at " + string(x));
     }
   }
   

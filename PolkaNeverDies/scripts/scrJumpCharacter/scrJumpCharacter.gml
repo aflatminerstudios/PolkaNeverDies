@@ -33,7 +33,8 @@ with (char) {
     }
   }
   
-  //TODO: When animations come in, if it looks weird, see if you can calculate acutal number of stpes
-  // and adjust animation accordingly (takes into account slowing so you don't land on something
-  
+  //TODO: Recalculate based on actual path and object you might hit so it doesn't slide?
+ 
+ 
+ 
 }
