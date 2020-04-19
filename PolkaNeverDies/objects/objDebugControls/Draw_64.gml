@@ -9,18 +9,18 @@ if (displayDebug) {
   
   
   if (objInputControl.badInput) {
-    draw_sprite(sprTestBand, 0, room_width - 100, 25);
+    draw_sprite(sprTestBand, 0, 800, 25);
   }
   
   if (objInputControl.hasInput) {
-    draw_sprite(sprTestHorde, 0, room_width - 100, 125);
+    draw_sprite(sprTestHorde, 0, 800, 125);
   }
   
   
   if (objBeat.activeMeasure) {
-    draw_text(room_width/2, 75, "Go!");
+    draw_text(500, 75, "Go!");
   } else {
-    draw_text(room_width/2, 75, "Stop!");
+    draw_text(500, 75, "Stop!");
   }
   
 }
