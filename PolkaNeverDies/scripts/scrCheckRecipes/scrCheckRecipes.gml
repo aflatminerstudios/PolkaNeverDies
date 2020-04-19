@@ -9,7 +9,7 @@ with (objBeatBuffer) {
     for (var i = 0; i < ds_list_size(commands); ++i) {
       s += commands[| i];
     }
-//    show_debug_message("Comparing " + s);
+    //show_debug_message("Comparing " + s);
   }
   
   if (!is_undefined(recipes[? s])) {

@@ -36,6 +36,7 @@ if (!postCheck) {
 }
 if (postCheck) { 
   postCheckCount += 1;  
+  //show_debug_message("Postcheck: " + string(ds_list_size(objBeatBuffer.commands)));
   if (postCheckCount > postCheckMax) {    
     if (ds_list_size(objBeatBuffer.commands) == objBeat.measure){
       var action = scrCheckRecipes();
@@ -55,8 +56,8 @@ if (postCheck) {
     var input = scrCheckInput();
     if (input != " " && !hasInput) {
       scrQueueInput(input);
-      postCheckCount = 0;
-      postCheck = false;    
+      postCheckCount = postCheckMax;
+      //postCheck = false;    
       hasInput = true;    
     }
   }

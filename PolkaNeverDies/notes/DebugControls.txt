@@ -11,3 +11,7 @@ w = increase post check size by 5
 
 g = decrease horde move
 h = increase horde move
+
+9, 0 = prev/next character
+u, i = increase/decrease speed by 1
+o, p = increase/decrease steps by 5;
