@@ -32,7 +32,7 @@ if (displayDebug) {
   
   var theList = objBeatBuffer.commands;
   for (var i = 0; i < ds_list_size(theList); ++i) {
-    draw_text(200, 50 + i * 50, theList[| i] + " ");
+    draw_text(250, 50 + i * 50, theList[| i] + " ");
   }
   
   

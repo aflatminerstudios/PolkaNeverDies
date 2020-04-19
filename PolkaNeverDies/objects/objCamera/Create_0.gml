@@ -14,3 +14,5 @@ maxCameraVelocity = 10.0;
 
 // Internals
 cameraOffset = 0; // Amount the camera needs to move to be even with the band 
+
+totalMoved = 0; //totalAmount the camera has "moved" since the game started

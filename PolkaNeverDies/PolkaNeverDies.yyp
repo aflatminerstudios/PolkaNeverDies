@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "3a13105a-7dc9-4028-86af-34357bff8e9a",
+            "Value": {
+                "id": "838a795f-4053-428b-b7e0-85faf92de379",
+                "resourcePath": "scripts\\scrGameOver\\scrGameOver.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "469dddf1-faed-4c37-9a7f-c09d3de3ec2e",
             "Value": {
                 "id": "154da1c4-4f99-429a-a6fc-b6e1e75d2811",
@@ -364,6 +372,14 @@
                 "id": "41e48ef6-ce44-4249-a523-b1eeb1436a12",
                 "resourcePath": "options\/html5\/options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "762aa1b3-5a0e-40fe-ac34-f281f51e3cb2",
+            "Value": {
+                "id": "720d62d3-a199-419a-9842-09915b8d2bd6",
+                "resourcePath": "objects\\objLevelControl\\objLevelControl.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1053,7 +1069,8 @@
         "f7443610-cf78-45ee-b8b3-deb393a87e02",
         "4eccb319-88f7-41e5-9465-4b5c6074b5c4",
         "8659c2ed-8477-48d0-bd6c-4893945ff203",
-        "a8168ec1-ecd1-4210-9c4d-90dc9ddde255"
+        "a8168ec1-ecd1-4210-9c4d-90dc9ddde255",
+        "3a13105a-7dc9-4028-86af-34357bff8e9a"
     ],
     "tutorial": ""
 }

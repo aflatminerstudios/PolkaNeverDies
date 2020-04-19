@@ -43,6 +43,7 @@ with(objBlocking) {
 	x += cameraVelocity*other.groundLevelParallax;
 }
 
+
 // Move the backgrounds
 var roadworkLayer = layer_get_id("Roadwork")
 var roadworkX = layer_get_x(roadworkLayer);
@@ -55,3 +56,6 @@ layer_x(frontTownLayer, frontTownX - cameraVelocity*frontTownParallax);
 var backTownLayer = layer_get_id("BackOfTown")
 var backTownX = layer_get_x(backTownLayer);
 layer_x(backTownLayer, backTownX - cameraVelocity*backTownParallax);
+
+//Adjust the amount the camera has moved
+totalMoved -= cameraVelocity;
