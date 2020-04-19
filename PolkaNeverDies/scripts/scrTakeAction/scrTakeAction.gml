@@ -10,34 +10,34 @@ switch(act) {
     var who = instance_find(objBandRight, 0);
     if (who != noone) {
       scrMoveCharacter(who);
-      scrActivateHeart(who);
+      scrDeactivateHeart(who);
     }
     break;
   case "left":
     var who = instance_find(objBandLeft, 0);
     if (who != noone) {
       scrMoveCharacter(who);
-      scrActivateHeart(who);
+      scrDeactivateHeart(who);
     }
     break;
   case "down":
     var who = instance_find(objBandDown, 0);
     if (who != noone) {
       scrMoveCharacter(who);
-      scrActivateHeart(who);
+      scrDeactivateHeart(who);
     }
     break;
   case "up":
     var who = instance_find(objBandUp, 0);
     if (who != noone) {
       scrMoveCharacter(who);
-      scrActivateHeart(who);
+      scrDeactivateHeart(who);
     }
     break;    
   case "jump":
     with (objBand) {
       scrJumpCharacter(self.id); 
-      scrActivateHeart(self.id);
+      scrDeactivateHeart(who);
     }    
     break;
   case "badleft":
@@ -45,6 +45,7 @@ switch(act) {
   case "badup":
   case "baddown":
     scrPlayBadNote(act);
+    break;
   default:
     //show_debug_message("Invalid action");
     

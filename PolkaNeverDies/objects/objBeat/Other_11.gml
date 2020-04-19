@@ -44,3 +44,6 @@ if (activeMeasure) {
   }
 }
 
+with (objHeart) {
+  scrBeatHeart(self.id);
+}

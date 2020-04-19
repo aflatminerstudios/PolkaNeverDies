@@ -9,7 +9,8 @@
         "8ed4469d-45eb-490e-ba2a-7a9a627fb74e",
         "5a215956-373d-47a1-940c-a4dff98c71f9",
         "db15bafd-6aac-492a-825f-6a1f09c26050",
-        "d7ef409f-9ed4-40f1-9bb8-e66bcc22e44d"
+        "d7ef409f-9ed4-40f1-9bb8-e66bcc22e44d",
+        "e445c467-e445-4808-985c-3da1fad75b58"
     ],
     "filterType": "GMObject",
     "folderName": "Band",

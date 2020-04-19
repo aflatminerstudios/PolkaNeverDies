@@ -5,9 +5,9 @@
 var which = argument0;
 
 with (which.heart) {
- 
-  var index = image_index;
-  sprite_index = sprHeartEmpty;
-  image_index = index;    
-
+  if (sprite_index == sprHeartFull) {
+    var index = image_index;
+    sprite_index = sprHeartEmpty;
+    image_index = index;    
+  }
 }

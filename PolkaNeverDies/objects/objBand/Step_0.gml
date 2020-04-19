@@ -11,8 +11,7 @@ if (moveForward) {
   
   while (place_meeting(x, y, objBlocking)) {   
     x -= 1;
-  }
-  
+  } 
 }
 
 
@@ -52,6 +51,7 @@ if (jumping) {
     jumpCount++;
     
     if (y >= groundHeight ) {
+      show_debug_message("Changing y to groundHeight!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
       y = groundHeight;
       jumping = false;
       landing = false;
