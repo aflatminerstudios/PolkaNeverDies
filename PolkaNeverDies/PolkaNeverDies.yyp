@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "158cae64-5f84-465f-9114-d6610c0fb779",
+            "Value": {
+                "id": "e0bc6a67-b8d3-40fc-9217-77e81a95d6eb",
+                "resourcePath": "scripts\/scrInitialize\/scrInitialize.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1982e406-ef0f-4a22-885f-e696e5903784",
             "Value": {
                 "id": "adfd6822-cc13-4ed9-93df-c728e21807c1",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "24efe836-fbbb-4360-816e-fb6ece7e01da",
+            "Value": {
+                "id": "e0487ac7-3d0c-43b9-9fd2-cf45b3cfe65b",
+                "resourcePath": "objects\/objInitialize\/objInitialize.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2bce8180-51ed-4c0f-b2f2-83ef5444e1af",
             "Value": {
                 "id": "aeaf8740-1b39-49b1-95b1-7bb405ef6e61",
@@ -180,6 +196,14 @@
                 "id": "51e6fad4-7349-48c2-8f16-d6e91e2dc022",
                 "resourcePath": "sprites\/sprTestBG1\/sprTestBG1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "48c4fc04-2ac8-445e-b76b-2c1944206d36",
+            "Value": {
+                "id": "c4e9d2ca-c4e3-4fa6-bb30-e1fd414fa1ef",
+                "resourcePath": "scripts\/scrUpdateWindowSettings\/scrUpdateWindowSettings.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -468,6 +492,14 @@
                 "id": "2bafbd67-b396-44ba-8edf-c01ceff5ace0",
                 "resourcePath": "options\/tvos\/options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "94893800-23eb-4d5d-bcc3-699ea4a22c11",
+            "Value": {
+                "id": "145f7735-efdb-4288-a2a3-165a89eedc60",
+                "resourcePath": "objects\/objWindowManager\/objWindowManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -920,6 +952,8 @@
         }
     ],
     "script_order": [
+        "158cae64-5f84-465f-9114-d6610c0fb779",
+        "48c4fc04-2ac8-445e-b76b-2c1944206d36",
         "06c263e9-29cf-44b5-b6c5-40b9a655419f",
         "602bce19-7fdc-4752-9c9c-4ea555811623",
         "c9887765-508a-4975-bd2f-4c6062227fd2",

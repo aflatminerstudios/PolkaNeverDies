@@ -8,4 +8,6 @@ if(keyboard_check_pressed(ord("M"))) {
 		room_goto(testRoom);
 	else
 		room_goto(roomMain);
+} else if(keyboard_check_pressed(ord("N"))) {
+	room_restart()	
 }
