@@ -1,6 +1,7 @@
 /// @func scrCheckRecipes()
 /// @desc Checks current command queue against recipe list
 
+
 with (objBeatBuffer) {
   
   var s = "";
@@ -8,9 +9,7 @@ with (objBeatBuffer) {
     for (var i = 0; i < ds_list_size(commands); ++i) {
       s += commands[| i];
     }
-    if (commands[| 0] == "right") {
-      show_debug_message("TEST"); 
-    }
+//    show_debug_message("Comparing " + s);
   }
   
   if (!is_undefined(recipes[? s])) {

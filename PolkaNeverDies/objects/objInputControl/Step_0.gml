@@ -33,19 +33,31 @@ if (!postCheck) {
 
   }
 
-} else {
-  
-  postCheckCount += 1;
-  if (postCheckCount > postCheckMax) {
+}
+if (postCheck) { 
+  postCheckCount += 1;  
+  if (postCheckCount > postCheckMax) {    
+    if (ds_list_size(objBeatBuffer.commands) == objBeat.measure){
+      var action = scrCheckRecipes();
+     // show_debug_message("Checking Recipes: action = " + action);
+
+      if (action != " ") {
+        while (ds_list_size(objBeatBuffer.commands) > 0) {
+          ds_list_delete(objBeatBuffer.commands,0); 
+        }
+        scrTakeAction(action);
+      }
+     }
     postCheckCount = 0;
     postCheck = false;
+    hasInput = false;
   } else {
-     var input = scrCheckInput();
-     if (input != " ") {
+    var input = scrCheckInput();
+    if (input != " " && !hasInput) {
       scrQueueInput(input);
       postCheckCount = 0;
-      postCheck = false;
-     // show_debug_message("Correct in post");
-     }     
+      postCheck = false;    
+      hasInput = true;    
+    }
   }
 }

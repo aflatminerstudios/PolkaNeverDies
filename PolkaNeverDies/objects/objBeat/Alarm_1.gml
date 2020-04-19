@@ -1,6 +1,10 @@
 /// @description Every Beat
 // This is what happens every beat
 
+objDebugControls.hit = false;
+
+
+
 
 if (curBeat != 0) {
   if (playMetronome) {
@@ -9,7 +13,13 @@ if (curBeat != 0) {
 } else if (playSong && !audio_is_playing(song))
   audio_play_sound(song, 100, false);
 
-show_debug_message(string(curBeat) + " " + string(activeMeasure));
+show_debug_message(string(curBeat) + " " + string(ds_list_size(objBeatBuffer.commands)));
+
+if (activeMeasure) {
+  show_debug_message("Active");
+} else {
+  show_debug_message("Inctive");
+}
 
 curBeat += 1;
 curBeat %= measure;
