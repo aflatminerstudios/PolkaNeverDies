@@ -4,10 +4,19 @@
 var isWin = argument0;
 
 if (isWin) {
-  show_message("You win!");
-  
+  with (objDataTransfer) {
+    won = true;
+    numSurvivors = instance_number(objBand);;
+  }
 } else {
-  show_message("You lose!");
+  with (objDataTransfer) {
+    won = false;
+    numSurvivors = 0;
+  }
 }
 
-room_restart();
+with (objDebugControls) {
+  instance_destroy();  
+}
+
+room_goto(roomGameOver);
