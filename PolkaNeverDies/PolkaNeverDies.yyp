@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0ab90979-086d-4a96-99a7-71144a8d945c",
+            "Value": {
+                "id": "234e9ace-a705-4945-b711-5095b2dcc719",
+                "resourcePath": "sprites\\sprHeartFull\\sprHeartFull.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0b12f6ad-8821-4112-b17f-d89aaf7d6b45",
             "Value": {
                 "id": "fefe3421-ee07-4758-8ce4-f4c93745d947",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "47ed14b9-4486-4720-92fa-f3d3e1afff8d",
+            "Value": {
+                "id": "e2e4dd83-b565-4b77-b575-f355634e7acb",
+                "resourcePath": "views\\47ed14b9-4486-4720-92fa-f3d3e1afff8d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "48c4fc04-2ac8-445e-b76b-2c1944206d36",
             "Value": {
                 "id": "c4e9d2ca-c4e3-4fa6-bb30-e1fd414fa1ef",
@@ -244,6 +260,14 @@
                 "id": "06a06817-2491-46c0-983a-d74558834983",
                 "resourcePath": "scripts\/scrMoveCharacter\/scrMoveCharacter.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "511dc93b-6c9b-4ae0-bab2-00bfb9918098",
+            "Value": {
+                "id": "b348677a-f448-449f-b1df-6a17fb2ad8c5",
+                "resourcePath": "sprites\\sprHeartZombie\\sprHeartZombie.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -419,6 +443,14 @@
             "Value": {
                 "id": "d874c1a0-a463-4034-a2a9-3b2d0d5ac8d0",
                 "resourcePath": "sprites\/sprHorde\/sprHorde.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d04adcc-b5e2-43fe-9fd2-609fd2b5d066",
+            "Value": {
+                "id": "3db0011e-61d9-4d73-aa1f-3ab83f2307d9",
+                "resourcePath": "sprites\\sprHeartEmpty\\sprHeartEmpty.yy",
                 "resourceType": "GMSprite"
             }
         },
