@@ -5,7 +5,15 @@ if (playMetronome) {
   audio_play_sound(sndMeasure, 100, false); 
 }
 
+curMeasure += 1;
+
 activeMeasure = !activeMeasure;
+
+//Temporary win conditions
+if (curMeasure >= gameLength && instance_number(objBand) > 0) {
+  show_message("You made it " + string(gameLength) + " measures! You won!");
+  room_restart();
+}
 
 
 /// Check recipe list

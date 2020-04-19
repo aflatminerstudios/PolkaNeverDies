@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "d7ef409f-9ed4-40f1-9bb8-e66bcc22e44d",
+            "Value": {
+                "id": "fb92bc5b-ff4f-4736-b399-dca55e500b29",
+                "resourcePath": "objects\\objKillCloud\\objKillCloud.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d86f0f1a-eaa2-4e26-9b90-5cecc816b765",
             "Value": {
                 "id": "5a7183ff-7009-4ff3-96b7-ccfcc087e373",
@@ -708,6 +716,14 @@
                 "id": "36b38442-3775-4d23-add5-827b8437fbc1",
                 "resourcePath": "views\/e576f901-0db6-473f-bc0a-6202c3759fe8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e7250c3b-161a-45b0-b662-caa830dce5b3",
+            "Value": {
+                "id": "ed41c10f-627f-463d-97f0-1132a032e435",
+                "resourcePath": "sprites\\sprKillCloud\\sprKillCloud.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

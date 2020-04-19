@@ -1,11 +1,16 @@
 /// @description Initialize variables
 // You can write your code in this editor
 
+gameLength = 30;
+
+
+
 measure = 3;
 bpm = 100;
 
 curBeat = 0;
 totalBeat = 0;
+curMeasure = 0;
 
 scrResetBeat();
 
