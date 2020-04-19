@@ -9,3 +9,5 @@ global.aspectRatio = AspectRatio.FULL_SCREEN;
 global.prevAspectRatio = global.aspectRatio;
 
 scrUpdateWindowSettings()
+
+randomize();

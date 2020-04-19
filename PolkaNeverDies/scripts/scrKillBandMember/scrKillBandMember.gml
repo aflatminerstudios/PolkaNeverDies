@@ -9,4 +9,7 @@ with (band) {
   if (alarm[0] <= 0) {
     alarm[0] = room_speed * 0.25; 
   }
+  
+  scrZombifyHeart(band);
+  
 }

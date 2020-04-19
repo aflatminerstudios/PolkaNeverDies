@@ -18,3 +18,9 @@ jumping = false;
 landing = false;
 targetHeight = y;
 groundHeight = y;
+
+
+//For spawning hearts
+
+heartX = 100;
+heartY = 100;

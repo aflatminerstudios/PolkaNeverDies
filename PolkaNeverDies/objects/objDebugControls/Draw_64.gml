@@ -3,9 +3,9 @@
 
 if (displayDebug) {
 
-  draw_text(50, 50, "Buffer size (1/2): " + string(objInputControl.bufferSize));
-  draw_text(50, 100, "Post size (q/w): " + string(objInputControl.postCheckMax));
-  draw_text(50, 150, "Horde Move (g/h): " + string(objHorde.moveSpeed));
+  draw_text(50, 550, "Buffer size (1/2): " + string(objInputControl.bufferSize));
+  draw_text(50, 600, "Post size (q/w): " + string(objInputControl.postCheckMax));
+  draw_text(50, 650, "Horde Move (g/h): " + string(objHorde.moveSpeed));
   
 
   if (objInputControl.badInput) {
@@ -32,7 +32,7 @@ if (displayDebug) {
   
   var theList = objBeatBuffer.commands;
   for (var i = 0; i < ds_list_size(theList); ++i) {
-    draw_text(200, 50 + i * 50, theList[| i] + " ");
+    draw_text(250, 50 + i * 50, theList[| i] + " ");
   }
   
   
