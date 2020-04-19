@@ -17,3 +17,5 @@ song = sndMusic_34_100;
 activeMeasure = true;
 
 instance_create_layer(0, 0, layer, objBeatBuffer);
+
+instance_create_layer(0, 480, layer, objHorde);

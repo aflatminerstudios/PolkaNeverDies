@@ -5,6 +5,8 @@ if (displayDebug) {
 
   draw_text(50, 50, "Buffer size: " + string(objInputControl.bufferSize));
   draw_text(50, 100, "Post size: " + string(objInputControl.postCheckMax));
+  draw_text(50, 150, "Horde Move: " + string(objHorde.moveSpeed));
+  
   
   if (objInputControl.badInput) {
     draw_sprite(sprTestBand, 0, room_width - 100, 25);

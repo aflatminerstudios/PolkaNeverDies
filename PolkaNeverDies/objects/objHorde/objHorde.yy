@@ -1,38 +1,38 @@
 {
-    "id": "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b",
+    "id": "01ed2aad-da9e-4874-ba95-769d79d9e8c1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objBand",
+    "name": "objHorde",
     "eventList": [
         {
-            "id": "afb9d737-2752-4c71-adba-f75ff0a15f55",
+            "id": "af4ec473-eb96-4da3-a7ee-73e1cddc2a1a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b"
+            "m_owner": "01ed2aad-da9e-4874-ba95-769d79d9e8c1"
         },
         {
-            "id": "f9a63ec1-a4b5-47f3-9592-0d0b6db0ea51",
+            "id": "cbc3dd6c-f98c-4ebc-9297-463625948333",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b"
+            "m_owner": "01ed2aad-da9e-4874-ba95-769d79d9e8c1"
         },
         {
-            "id": "1aa9ab69-2e2d-4268-88c4-55e3b2dea4ae",
+            "id": "335f25c6-e67b-441f-b599-7440d2da3dde",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b",
             "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b"
+            "eventtype": 4,
+            "m_owner": "01ed2aad-da9e-4874-ba95-769d79d9e8c1"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "7bc9d780-90b2-4d10-93f1-43b09d5954bd",
     "visible": true
 }

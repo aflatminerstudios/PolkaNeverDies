@@ -15,11 +15,12 @@ if (curBeat != 0) {
 
 show_debug_message(string(curBeat) + " " + string(ds_list_size(objBeatBuffer.commands)));
 
-if (activeMeasure) {
+/*if (activeMeasure) {
   show_debug_message("Active");
 } else {
-  show_debug_message("Inctive");
+  show_debug_message("Inactive");
 }
+*/
 
 curBeat += 1;
 curBeat %= measure;

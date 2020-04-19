@@ -9,3 +9,5 @@ s = play song on/off
 q = decrease post check size by 5
 w = increase post check size by 5
 
+g = decrease horde move
+h = increase horde move
