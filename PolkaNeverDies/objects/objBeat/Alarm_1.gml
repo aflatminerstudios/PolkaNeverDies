@@ -1,10 +1,6 @@
 /// @description Every Beat
 // This is what happens every beat
 
-objDebugControls.hit = false;
-
-
-
 
 if (curBeat != 0) {
   if (playMetronome) {
