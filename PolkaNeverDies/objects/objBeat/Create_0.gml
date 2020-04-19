@@ -22,3 +22,4 @@ song = sndMusic_34_100;
 activeMeasure = true;
 
 instance_create_layer(0, 0, layer, objBeatBuffer);
+instance_create_layer(1580, 816, layer, objJumpable);
