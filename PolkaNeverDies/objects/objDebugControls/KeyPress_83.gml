@@ -3,4 +3,5 @@
 
 with (objBeat) {
   playSong = !playSong;  
+  audio_stop_sound(song);
 }
