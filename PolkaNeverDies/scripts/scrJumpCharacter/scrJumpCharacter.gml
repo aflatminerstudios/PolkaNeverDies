@@ -7,6 +7,8 @@ var char = argument0;
 with (char) {
   /*moveForward = true;
   forwardGoal += forwardSteps;*/
-  y -= jumpHeight;
+  //y -= jumpHeight;
   jumping = true;
+  landing = false;
+  targetHeight = y - jumpHeight;
 }

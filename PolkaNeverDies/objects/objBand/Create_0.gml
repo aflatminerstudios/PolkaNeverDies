@@ -14,4 +14,6 @@ jumpHSpeed = 5;
 jumpSteps = room_speed;
 jumpCount = 0;
 jumping = false;
-
+landing = false;
+targetHeight = y;
+groundHeight = y;

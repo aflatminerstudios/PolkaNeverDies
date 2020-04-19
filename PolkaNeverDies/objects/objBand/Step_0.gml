@@ -16,11 +16,32 @@ if (moveForward) {
 }
 
 if (jumping) {
-  x += jumpHSpeed;
-  jumpCount++;
-  if (jumpCount > jumpSteps) {
-    y += jumpHeight;
-    jumping = false; 
-    jumpCount = 0;
+  if (!landing) {
+    x += jumpHSpeed;
+    y -= jumpVSpeed;
+    jumpCount++;
+  
+    if (y <= targetHeight) {
+      landing = true;  
+    }
+  
+    /*if (jumpCount > jumpSteps) {
+      y += jumpHeight;
+      jumping = false; 
+      landing = false;
+      jumpCount = 0;
+    }*/        
+  } else {
+    x += jumpHSpeed;
+    y += jumpVSpeed;
+    jumpCount++;
+    
+    if (y >= groundHeight ) {
+      y = groundHeight;
+      jumping = false;
+      landing = false;
+      jumpCount = 0;
+    }
   }
+  
 }

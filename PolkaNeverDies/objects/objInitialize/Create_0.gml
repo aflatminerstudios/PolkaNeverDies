@@ -4,4 +4,7 @@
 // Run scrInitialize() before the first room loads
 gml_pragma("global", "scrInitialize()");
 
+
+
+
 room_goto_next();
