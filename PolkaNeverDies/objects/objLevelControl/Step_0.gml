@@ -29,3 +29,7 @@ if ((totalMoved - lastSpawn) > nextSpawn) {
 if (totalMoved > levelEnd[curLevel]) {
   scrGameOver(true); 
 }
+
+if (instance_number(objBand) <= 0 && instance_number(objKillCloud) <= 0) {
+  scrGameOver(false);  
+}

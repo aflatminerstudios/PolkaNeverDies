@@ -10,17 +10,6 @@ totalMeasure += 1
 
 activeMeasure = !activeMeasure;
 
-//Temporary win/lose conditions
-if (totalMeasure >= gameLength && instance_number(objBand) > 0) {
-  show_message("You made it " + string(gameLength) + " measures! You won!");
-  room_restart();
-}
-
-if (instance_number(objBand) <= 0) {
-  show_message("You lost! You suck!");
-  room_restart();  
-}
-
 
 /// Check recipe list
 /// And take first action
