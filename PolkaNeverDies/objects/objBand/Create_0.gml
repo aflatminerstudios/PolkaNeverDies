@@ -8,9 +8,10 @@ forwardGoal = 0;
 forwardCount = 0;
 
 
-jumpHeight = 400;
-jumpVSpeed = 5;
-jumpHSpeed = 5;
+jumpHeight = 300;
+jumpVSpeed = 8;
+baseJumpHSpeed = 1;
+jumpHSpeed = baseJumpHSpeed;
 jumpSteps = room_speed;
 jumpCount = 0;
 jumping = false;

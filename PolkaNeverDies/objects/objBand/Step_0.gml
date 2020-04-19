@@ -15,13 +15,20 @@ if (moveForward) {
   
 }
 
+
+
+
 if (jumping) {
+  
   if (!landing) {
-    x += jumpHSpeed;
+    //Only jump over if it wouldn't make you run through object
+    if (!place_meeting(x + jumpHSpeed, y - jumpVSpeed, objBlocking)) {
+      x += jumpHSpeed;
+    }
     y -= jumpVSpeed;
     jumpCount++;
   
-    if (y <= targetHeight) {
+    if (y <= targetHeight) {      
       landing = true;  
     }
   
@@ -32,8 +39,16 @@ if (jumping) {
       jumpCount = 0;
     }*/        
   } else {
+    
     x += jumpHSpeed;
-    y += jumpVSpeed;
+    if (!place_meeting(x, y + jumpVSpeed, objBlocking)) {   
+      y += jumpVSpeed;
+    }
+    
+    //while (place_meeting(x, y, objBlocking)) {   
+      x += 1;
+    //}
+    
     jumpCount++;
     
     if (y >= groundHeight ) {
@@ -41,6 +56,8 @@ if (jumping) {
       jumping = false;
       landing = false;
       jumpCount = 0;
+      
+      show_debug_message("Landed at " + string(x));
     }
   }
   
