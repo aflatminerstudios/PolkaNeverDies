@@ -36,8 +36,8 @@ switch(act) {
     break;    
   case "jump":
     with (objBand) {
-      scrJumpCharacter(self.id); 
-      scrDeactivateHeart(who);
+      scrJumpCharacter(self.id);       
+      scrDeactivateHeart(self.id);
     }    
     break;
   case "badleft":

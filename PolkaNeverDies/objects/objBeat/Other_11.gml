@@ -6,6 +6,9 @@ curBeat += 1;
 curBeat %= measure;
 totalBeat += 1;
 
+objDataTransfer.points += pointsPerBeat * instance_number(objBand);
+
+
 if (curBeat != 0) {
   if (playMetronome) {
     audio_play_sound(sndBeat, 100, false); 

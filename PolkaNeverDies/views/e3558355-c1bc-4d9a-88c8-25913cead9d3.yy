@@ -6,7 +6,8 @@
     "children": [
         "eeb0d373-8dfc-41f5-afa4-5a6ae6450a4d",
         "b5fa699b-70af-4c0e-a020-55337eada9a9",
-        "2593ca7a-670a-4923-871f-f7e0928a5c11"
+        "2593ca7a-670a-4923-871f-f7e0928a5c11",
+        "78910895-f619-4e73-b197-c7747e0d76d2"
     ],
     "filterType": "GMObject",
     "folderName": "OtherRooms",
