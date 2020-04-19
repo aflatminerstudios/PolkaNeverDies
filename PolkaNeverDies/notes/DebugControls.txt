@@ -1,2 +1,11 @@
+Tab = turn debug display on/off
+
 a = metronome on/off
 s = play song on/off 
+
+1 = dencrease buffer size by 5
+2 = increase buffer size by 5
+
+q = decrease post check size by 5
+w = increase post check size by 5
+
