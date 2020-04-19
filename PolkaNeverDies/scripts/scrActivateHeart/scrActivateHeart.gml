@@ -4,8 +4,10 @@
 
 var which = argument0;
 
-with (objHeart) {
-  if (bandMember != noone && bandMember == which) {
-    sprite_index = sprHeartFull;
-  }
+with (which.heart) {
+
+  var index = image_index;
+  sprite_index = sprHeartFull;
+  image_index = index;
+
 }
