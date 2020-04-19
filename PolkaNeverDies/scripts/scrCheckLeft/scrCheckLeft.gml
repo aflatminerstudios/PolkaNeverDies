@@ -1,4 +1,4 @@
-/// @desc scrCheckLeft() Checks for right input
+/// @desc Checks for right input
 /// @func scrCheckLeft()
 
 

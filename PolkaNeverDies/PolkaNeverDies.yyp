@@ -642,7 +642,7 @@
             "Key": "9c431692-8366-4acf-890c-9dfeb8869526",
             "Value": {
                 "id": "5e2c92ee-ea40-4e41-b8dd-7ccacb565a94",
-                "resourcePath": "objects\/objBlocking\/objBlocking.yy",
+                "resourcePath": "objects\\objBlockingParent\\objBlockingParent.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1175,6 +1175,8 @@
         "f17c4729-1c78-4895-9616-9d4cbd2a19fc",
         "1fe02ac9-5fd7-4cfd-995d-c1f180964dee",
         "d122d718-df05-4914-a027-801fb0b22138",
+        "8659c2ed-8477-48d0-bd6c-4893945ff203",
+        "4eccb319-88f7-41e5-9465-4b5c6074b5c4",
         "3d0f5bfe-4a0a-45d3-82ef-f78921de3afe",
         "fc8bd5c9-4c30-4487-b7ae-79ed15dc7ccd",
         "7d3e7654-f599-4249-9a8a-26fc6d921cae",
@@ -1183,8 +1185,6 @@
         "65cefadc-61ae-4f23-a8b5-30ec416cb141",
         "9ceac099-3dc2-457d-b855-de14c2a8acad",
         "f7443610-cf78-45ee-b8b3-deb393a87e02",
-        "4eccb319-88f7-41e5-9465-4b5c6074b5c4",
-        "8659c2ed-8477-48d0-bd6c-4893945ff203",
         "a8168ec1-ecd1-4210-9c4d-90dc9ddde255",
         "3a13105a-7dc9-4028-86af-34357bff8e9a"
     ],

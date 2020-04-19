@@ -39,7 +39,7 @@ with(objHorde) {
 	x += cameraVelocity*other.groundLevelParallax;
 }
 
-with(objBlocking) {
+with(objBlockingParent) {
 	x += cameraVelocity*other.groundLevelParallax;
 }
 

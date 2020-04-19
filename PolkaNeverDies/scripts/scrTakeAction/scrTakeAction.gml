@@ -4,9 +4,11 @@
 
 var act = argument0;
 
+//When a character takes an action, it then turns the heart to empty
 switch(act) {
   
   case "right":
+    //Moves the right character
     var who = instance_find(objBandRight, 0);
     if (who != noone) {
       scrMoveCharacter(who);
@@ -14,6 +16,7 @@ switch(act) {
     }
     break;
   case "left":
+    //Moves the left character
     var who = instance_find(objBandLeft, 0);
     if (who != noone) {
       scrMoveCharacter(who);
@@ -21,6 +24,7 @@ switch(act) {
     }
     break;
   case "down":
+    //Moves the down character
     var who = instance_find(objBandDown, 0);
     if (who != noone) {
       scrMoveCharacter(who);
@@ -28,6 +32,7 @@ switch(act) {
     }
     break;
   case "up":
+    //Moves the up character
     var who = instance_find(objBandUp, 0);
     if (who != noone) {
       scrMoveCharacter(who);
@@ -35,6 +40,7 @@ switch(act) {
     }
     break;    
   case "jump":
+    //Jump all characters
     with (objBand) {
       scrJumpCharacter(self.id);       
       scrDeactivateHeart(self.id);
@@ -44,9 +50,11 @@ switch(act) {
   case "badright":
   case "badup":
   case "baddown":
-    scrPlayBadNote(act);
+    //There was a bad input, so blat and don't move
+    scrPlayBadNote(act);    
     break;
   default:
+    //Should not get here, turn on debug msg if you think it's happening
     //show_debug_message("Invalid action");
     
 }

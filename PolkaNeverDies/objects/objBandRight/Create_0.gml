@@ -2,6 +2,8 @@
 // You can write your code in this editor
 
 event_inherited();
+
+//Movement variables
 forwardSpeed = 5;
 forwardSteps = room_speed/3;
 

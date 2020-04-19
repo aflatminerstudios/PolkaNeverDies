@@ -2,7 +2,7 @@
     "id": "9c431692-8366-4acf-890c-9dfeb8869526",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objBlocking",
+    "name": "objBlockingParent",
     "eventList": [
         
     ],

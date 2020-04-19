@@ -1,4 +1,4 @@
-/// @desc scrCheckRight() Checks for right input
+/// @desc Checks for right input
 /// @func scrCheckRight()
 
 if (keyboard_check_pressed(vk_right)) {

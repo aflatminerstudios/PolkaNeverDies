@@ -5,53 +5,49 @@
 if (moveForward) {
   x += forwardSpeed;
   forwardCount++;
+  //Finish if you've reached goal
   if (forwardCount > forwardGoal) {
     moveForward = false; 
   }
   
-  while (place_meeting(x, y, objBlocking)) {   
+  //Make sure you don't collide with something
+  while (place_meeting(x, y, objBlockingParent)) {   
     x -= 1;
   } 
 }
 
 
 
-
+//Jump!
 if (jumping) {
   
+  //Jump up until you reach height
   if (!landing) {
-    //Only jump over if it wouldn't make you run through object
-    if (!place_meeting(x + jumpHSpeed, y - jumpVSpeed, objBlocking)) {
+    //Only move horizontally if it wouldn't make you run through object
+    if (!place_meeting(x + jumpHSpeed, y - jumpVSpeed, objBlockingParent)) {
       x += jumpHSpeed;
     }
     y -= jumpVSpeed;
     jumpCount++;
   
+    //Reached apex
     if (y <= targetHeight) {      
       landing = true;  
     }
-  
-    /*if (jumpCount > jumpSteps) {
-      y += jumpHeight;
-      jumping = false; 
-      landing = false;
-      jumpCount = 0;
-    }*/        
+      
   } else {
+  
     
     x += jumpHSpeed;
-    if (!place_meeting(x, y + jumpVSpeed, objBlocking)) {   
+    //Slide if encountering object
+    if (!place_meeting(x, y + jumpVSpeed, objBlockingParent)) {   
       y += jumpVSpeed;
     }
     
-    //while (place_meeting(x, y, objBlocking)) {   
-      x += 1;
-    //}
-    
     jumpCount++;
-    
-    if (y >= groundHeight ) {
-      show_debug_message("Changing y to groundHeight!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+
+    //If jump speed pushes you to or below ground, land on ground
+    if (y >= groundHeight ) {    
       y = groundHeight;
       jumping = false;
       landing = false;

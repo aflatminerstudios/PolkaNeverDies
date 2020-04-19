@@ -1,4 +1,5 @@
-/// @desc scrChangeBeat(measure, bpm)
+/// @func scrChangeBeat(measure, bpm)
+/// @desc Changes the # of beats/measure and beats/minute
 /// @param measure # of beats per measure
 /// @param bpm beats per minute
 

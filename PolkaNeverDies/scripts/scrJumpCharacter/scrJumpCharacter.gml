@@ -6,11 +6,11 @@ var char = argument0;
 
 with (char) {
   if (!jumping) {
-    /*moveForward = true;
-    forwardGoal += forwardSteps;*/
-    //y -= jumpHeight;
+    
+    //Set variables to start jumping
     jumping = true;
     landing = false;
+    //Make sure you jump higher than current position
     targetHeight = y - jumpHeight;
   
     //It takes jumpHeight / jumpVSpeed steps to get to top
@@ -21,9 +21,8 @@ with (char) {
     var xChange = 2 * jumpHSpeed * numSteps;
     
     if (place_meeting(x + xChange, y, objJumpable)) {
-      //Make sure you will get past object
-      while (place_meeting(x + xChange, y, objJumpable)) {
-        //TODO: Tune this? Should it be += some number?
+      //Make sure you will not land on object (doesn't take into account object height)
+      while (place_meeting(x + xChange, y, objJumpable)) {        
         jumpHSpeed += 2;
         xChange = 2 * jumpHSpeed * numSteps;        
       }      

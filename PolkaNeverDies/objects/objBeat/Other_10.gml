@@ -1,6 +1,7 @@
 /// @description Every Measure
 // This is what happens every measure
 
+//Play metronome beat
 if (playMetronome) {
   audio_play_sound(sndMeasure, 100, false); 
 }
@@ -8,22 +9,20 @@ if (playMetronome) {
 curMeasure += 1;
 totalMeasure += 1
 
+//Make active/inactive
 activeMeasure = !activeMeasure;
 
 
 /// Check recipe list
 /// And take first action
 if (!activeMeasure) {
-  //show_debug_message("Starting measure: " + string(ds_list_size(objBeatBuffer.commands)));
+  
   if (ds_list_size(objBeatBuffer.commands) == measure) {
     var action = scrCheckRecipes();
-    show_debug_message("Got action: action = " + action);
-  /*  var theList = objBeatBuffer.commands;
-    if (action == " " && ds_list_size(theList) > 0) {
-      action = theList[| 0];
-      ds_list_delete(theList, 0);    
-    }*/
+    
+    //action will be " " if no match
     if (action != " ") {
+      ///Empty command queue
       while (ds_list_size(objBeatBuffer.commands) > 0) {
         ds_list_delete(objBeatBuffer.commands,0); 
       }
@@ -32,5 +31,5 @@ if (!activeMeasure) {
   }
 }
 
-alarm[0] = room_speed * (60/bpm) * measure; 
+//alarm[0] = room_speed * (60/bpm) * measure; 
 
