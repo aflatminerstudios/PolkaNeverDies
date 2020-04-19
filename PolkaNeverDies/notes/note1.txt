@@ -1,0 +1,15 @@
+
+
+
+v1
+IDLE - one frame 
+JUMP - 10 frames
+  - move forward one step
+	- jumping over rocks
+	
+v2
+IDLE cycle
+STEP cycle
+Duck?
+Forward recipe?
+Backwards recipe?

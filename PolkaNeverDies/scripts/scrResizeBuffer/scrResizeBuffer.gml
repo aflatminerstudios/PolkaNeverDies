@@ -1,10 +1,14 @@
-/// @desc scrResizeBuffer(size)
-/// @param size New size of the input buffer
+/// @func scrResizeBuffer(size)
+/// @desc Resize buffer to size
+/// @param size The size to reszie to
 
 var size = argument0;
 
 with (objInputControl) {
+  
   bufferSize = size;
   
-  scrEmptyBuffer();
+  for (var i = 0; i < bufferSize; ++i) {
+    buffer[i] = " "; 
+  } 
 }

@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 event_inherited();
-forwardSpeed = 8;
+forwardSpeed = 7;
 forwardSteps = room_speed/2.5;
