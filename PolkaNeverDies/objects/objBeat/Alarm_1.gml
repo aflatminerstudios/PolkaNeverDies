@@ -9,7 +9,7 @@ if (curBeat != 0) {
 } else if (playSong && !audio_is_playing(song))
   audio_play_sound(song, 100, false);
 
-show_debug_message(string(curBeat) + " " + string(ds_list_size(objBeatBuffer.commands)));
+show_debug_message(string(curBeat) + " " + string(activeMeasure)); //string(ds_list_size(objBeatBuffer.commands)));
 
 /*if (activeMeasure) {
   show_debug_message("Active");
