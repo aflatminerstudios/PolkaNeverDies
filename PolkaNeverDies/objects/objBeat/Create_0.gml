@@ -6,7 +6,7 @@ gameLength = 30;
 
 
 measure = 3;
-bpm = 100;
+bpm = 120;
 
 curBeat = 0;
 totalBeat = 0;
@@ -17,7 +17,7 @@ scrResetBeat();
 playMetronome = false;
 playSong = false;
 
-song = sndMusic_34_100;
+song = sndMusic_34_120;
 
 activeMeasure = true;
 
