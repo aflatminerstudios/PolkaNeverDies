@@ -9,8 +9,18 @@ if (moveForward) {
     moveForward = false; 
   }
   
-  while (place_meeting(x, y, objBlocking)) {
+  while (place_meeting(x, y, objBlocking)) {   
     x -= 1;
   }
   
+}
+
+if (jumping) {
+  x += jumpHSpeed;
+  jumpCount++;
+  if (jumpCount > jumpSteps) {
+    y += jumpHeight;
+    jumping = false; 
+    jumpCount = 0;
+  }
 }
