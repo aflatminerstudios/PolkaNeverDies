@@ -7,7 +7,7 @@ if (!audio_is_playing(song)) {
 
 activeSongTargetGain = playSong ? 1.0 : 0.0;
 
-if(playSong && activeSongGain != activeSongTargetGain) {
+if(audio_is_playing(song) && activeSongGain != activeSongTargetGain) {  
 	audio_sound_gain(activeSongAudio, activeSongTargetGain, 0.05);
 	activeSongGain = activeSongTargetGain;
 }
