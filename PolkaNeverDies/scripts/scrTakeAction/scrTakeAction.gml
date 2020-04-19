@@ -31,6 +31,7 @@ switch(act) {
       scrJumpCharacter(self.id); 
       scrActivateHeart(self.id);
     }    
+    break;
   case "badleft":
   case "badright":
   case "badup":
