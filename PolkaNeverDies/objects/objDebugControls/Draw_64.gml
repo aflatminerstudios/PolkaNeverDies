@@ -23,4 +23,9 @@ if (displayDebug) {
     draw_text(500, 75, "Stop!");
   }
   
+  if (instance_number(curObj) > 0) {
+    draw_text(500, 150, string(charList[curChar]) + " mvSpd: " + string(curObj.forwardSpeed));
+    draw_text(500, 200, string(charList[curChar]) + " mvDist: " + string(curObj.forwardSteps));
+  }
+  
 }
