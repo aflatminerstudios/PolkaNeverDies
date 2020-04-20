@@ -1,7 +1,7 @@
 /// @description Initialize variables
 // You can write your code in this editor
 
-displayDebug = true;
+displayDebug = false;
 
 charList[0] =  "right";
 charList[1] = "left"
