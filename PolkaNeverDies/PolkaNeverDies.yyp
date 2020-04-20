@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "f5bd7400-73bd-416b-8474-8e31801f5cfb",
+            "Value": {
+                "id": "745fe3a5-b914-4730-b8c3-1960af50d6f1",
+                "resourcePath": "objects\\objDuckable\\objDuckable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f6a76d10-014f-4f63-8504-42650ea1bbcd",
             "Value": {
                 "id": "46b7c766-5d23-44ff-a5eb-9f701fb3f818",
