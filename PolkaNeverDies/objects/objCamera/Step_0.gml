@@ -43,6 +43,10 @@ with(objBlockingParent) {
 	x += cameraVelocity*other.groundLevelParallax;
 }
 
+with (objFinish) {
+  x += cameraVelocity*other.groundLevelParallax;
+}
+
 
 // Move the backgrounds
 var roadworkLayer = layer_get_id("Roadwork")

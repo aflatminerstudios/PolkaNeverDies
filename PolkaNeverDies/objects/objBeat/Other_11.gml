@@ -40,8 +40,17 @@ with (objHeart) {
 }
 
 
+//Stop ducking and move to safety
 with (objBand) {
   if (ducking) {
     ducking = false; 
-  }
+    sprite_index = idleSprite;
+    while (place_meeting(x, y, objDuckable)) {
+      x += 1; 
+    }
+    x += 2;    
+    sprite_index = duckSprite;
+  }  
 }
+
+scrBounceBall();
