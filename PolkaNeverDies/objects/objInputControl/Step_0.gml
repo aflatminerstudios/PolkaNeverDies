@@ -52,6 +52,10 @@ if (postCheck) {
   
   if (postCheckCount > postCheckMax) {    
     
+    if (ds_list_size(objBeatBuffer.commands) != (objBeat.curBeat + 1)){
+      scrQueueInput("miss"); 
+    }
+    
     //At the end of postcheck, check if buffer matches number of beats
     //This lets you process inputs JUST after the last beat of measure and still get credit
     if (ds_list_size(objBeatBuffer.commands) == objBeat.measure){

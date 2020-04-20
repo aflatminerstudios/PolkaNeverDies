@@ -31,5 +31,8 @@ if (!activeMeasure) {
   }
 }
 
+//Make horde go faster
+scrIncreaseHordeSpeed();
+
 //alarm[0] = room_speed * (60/bpm) * measure; 
 

@@ -53,7 +53,7 @@ if (which != " ") {
   case "badright":
   case "badup":
   case "baddown":
-    
+  case "miss":
   default:
     //show_debug_message("Invalid action");
   }
