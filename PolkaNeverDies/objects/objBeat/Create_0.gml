@@ -32,4 +32,4 @@ activeMeasure = true;
 instance_create_layer(0, 0, layer, objBeatBuffer);
 
 //for scoring
-pointsPerBeat = 500;
+pointsPerBeat = 5;
