@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "64185c91-2679-40b8-9ad1-e2cbc417de9e",
+            "Value": {
+                "id": "83ad5660-0b15-4c89-b4dd-e4b0f3512018",
+                "resourcePath": "objects\\objBallGoal\\objBallGoal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65cefadc-61ae-4f23-a8b5-30ec416cb141",
             "Value": {
                 "id": "3deeb788-51ca-40bf-add5-c2b9c4ae4921",
@@ -911,6 +919,14 @@
             }
         },
         {
+            "Key": "b2231736-26c3-4873-9f56-90212ba42659",
+            "Value": {
+                "id": "e4d716ad-6a6f-4dfe-a746-7726696aa354",
+                "resourcePath": "sprites\\sprBallGoal\\sprBallGoal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b403f564-e169-40aa-bbaf-ca392ad76493",
             "Value": {
                 "id": "935b2753-f52f-43ca-8e2d-1a5b96240cb1",
@@ -1012,6 +1028,14 @@
                 "id": "abf8465f-1d1d-4168-aa4f-ab59c49d8574",
                 "resourcePath": "scripts\/scrChangeBeat\/scrChangeBeat.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c68d2ae0-a294-430f-bbf9-d04bdf70f927",
+            "Value": {
+                "id": "54e3d8f8-df7f-4a4a-b5c9-b4bdb2229875",
+                "resourcePath": "sprites\\sprBouncingBall\\sprBouncingBall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1263,6 +1287,14 @@
             }
         },
         {
+            "Key": "ed6a0556-95e2-4c2a-b4f0-3e2e7977962e",
+            "Value": {
+                "id": "1786a9bc-1cf6-4dd1-8e8d-b1a1075dc8f7",
+                "resourcePath": "objects\\objBouncingBall\\objBouncingBall.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eeb0d373-8dfc-41f5-afa4-5a6ae6450a4d",
             "Value": {
                 "id": "d2de040c-5982-4986-ab58-1ab78d47d7f6",
@@ -1429,6 +1461,14 @@
                 "resourcePath": "notes\/DebugControls.yy",
                 "resourceType": "GMNotes"
             }
+        },
+        {
+            "Key": "fff31a31-fe61-4dd2-9be3-793503488bb1",
+            "Value": {
+                "id": "f06b0931-f9b1-43c2-bfc5-aa2136780860",
+                "resourcePath": "scripts\\scrBounceBall\\scrBounceBall.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -1462,6 +1502,7 @@
         "3a13105a-7dc9-4028-86af-34357bff8e9a",
         "2a170faf-fec2-40ec-a3ec-5b500d1c1bda",
         "fd06fa52-d8c5-4802-bc3e-f3caf5ec3f62",
+        "fff31a31-fe61-4dd2-9be3-793503488bb1",
         "90bacfbe-8e0c-47fc-8cc1-69be72f794ca",
         "cbab5b2e-10c5-4c6a-9161-eb58dcaf7c71"
     ],
