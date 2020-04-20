@@ -28,5 +28,5 @@ duckCount = 0;
 
 
 //For spawning hearts (position)
-heartX = 100;
+heartX = 120;
 heartY = 100;

@@ -8,7 +8,7 @@ curLevel = 0;
 baseMove = 104;
 
 //End of level and spawn times for this level
-levelEnd[0] = 10;
+levelEnd[0] = 5000;
 minSpawn[0] = 1000;
 maxSpawn[0] = 3000;
 
