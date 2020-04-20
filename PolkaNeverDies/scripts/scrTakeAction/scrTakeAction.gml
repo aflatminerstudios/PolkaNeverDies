@@ -50,6 +50,7 @@ switch(act) {
   case "badright":
   case "badup":
   case "baddown":
+  case "miss":
     //There was a bad input, so blat and don't move
     scrPlayBadNote(act);    
     break;
