@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "2a170faf-fec2-40ec-a3ec-5b500d1c1bda",
+            "Value": {
+                "id": "020f9a41-fbc0-4181-87d0-324ad7404fbc",
+                "resourcePath": "scripts\\scrDestroyObject\\scrDestroyObject.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "2bce8180-51ed-4c0f-b2f2-83ef5444e1af",
             "Value": {
                 "id": "aeaf8740-1b39-49b1-95b1-7bb405ef6e61",
@@ -991,6 +999,14 @@
             }
         },
         {
+            "Key": "cbab5b2e-10c5-4c6a-9161-eb58dcaf7c71",
+            "Value": {
+                "id": "42d5c9c8-ef7d-4735-b701-4945cb0ebed2",
+                "resourcePath": "scripts\\scrFindNearestFront\\scrFindNearestFront.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "49a860cd-d1b9-4d39-8f8c-7f3032668fa6",
@@ -1012,6 +1028,14 @@
                 "id": "2f51b67a-fe22-47ff-91e6-abb38d678426",
                 "resourcePath": "objects\/objGameOverControl\/objGameOverControl.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cfeff36d-c520-40ab-8e1b-d93dc5dc8a7c",
+            "Value": {
+                "id": "2e37aaae-8203-4954-abf0-97b0b1cfdce5",
+                "resourcePath": "sounds\\sndZombieKill\\sndZombieKill.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1287,6 +1311,14 @@
             }
         },
         {
+            "Key": "f5bd7400-73bd-416b-8474-8e31801f5cfb",
+            "Value": {
+                "id": "745fe3a5-b914-4730-b8c3-1960af50d6f1",
+                "resourcePath": "objects\\objDuckable\\objDuckable.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f6a76d10-014f-4f63-8504-42650ea1bbcd",
             "Value": {
                 "id": "46b7c766-5d23-44ff-a5eb-9f701fb3f818",
@@ -1335,6 +1367,14 @@
             }
         },
         {
+            "Key": "fd06fa52-d8c5-4802-bc3e-f3caf5ec3f62",
+            "Value": {
+                "id": "e5b1a652-3e6b-4a28-90c2-905375cef512",
+                "resourcePath": "scripts\\scrIncreaseHordeSpeed\\scrIncreaseHordeSpeed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fd3166c8-464c-47d4-8b24-9f0078918479",
             "Value": {
                 "id": "53486ba1-1f5d-4bbb-9f45-43a9b7bf4a88",
@@ -1378,7 +1418,10 @@
         "9ceac099-3dc2-457d-b855-de14c2a8acad",
         "f7443610-cf78-45ee-b8b3-deb393a87e02",
         "a8168ec1-ecd1-4210-9c4d-90dc9ddde255",
-        "3a13105a-7dc9-4028-86af-34357bff8e9a"
+        "3a13105a-7dc9-4028-86af-34357bff8e9a",
+        "2a170faf-fec2-40ec-a3ec-5b500d1c1bda",
+        "cbab5b2e-10c5-4c6a-9161-eb58dcaf7c71",
+        "fd06fa52-d8c5-4802-bc3e-f3caf5ec3f62"
     ],
     "tutorial": ""
 }

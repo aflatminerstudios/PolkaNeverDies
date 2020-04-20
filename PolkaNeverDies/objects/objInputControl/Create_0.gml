@@ -8,14 +8,17 @@ badString = " ";
 //Used for checking after beat
 postCheck = false;
 postCheckCount = 0;
-postCheckMax = 15
+postCheckMax = 5
 hasInput = false;
 
 
 
 //Creates a buffer of bufferSize size to keep track of inputs
-bufferSize = 25;
+bufferSize = 20;
 scrEmptyBuffer();
 
 
+
+preCount = 0;
+postCount = 0;
 

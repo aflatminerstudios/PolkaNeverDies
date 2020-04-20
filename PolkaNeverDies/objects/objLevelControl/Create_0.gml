@@ -12,6 +12,12 @@ levelEnd[0] = 5000;
 minSpawn[0] = 1000;
 maxSpawn[0] = 3000;
 
+//Horde variables for this level (currently do nothing)
+hordeSpeed[0] = 0.5;
+hordeMax[0] = 1.50;
+hordeAdd[0] = 0.01;
+hordeMinDist[0] = 500;
+
 //Ground position (important for spawning)
 ground = 800;
 
@@ -28,8 +34,11 @@ with (objDataTransfer) {
   numSurvivors = 0;
 }
 
+// For setting horde variables
+alarm[0] = 1;
 
 //Currently not used
 song[0] = sndMusic_34_120;
 bpm[0] = 120;
 measure[0] = 34;
+

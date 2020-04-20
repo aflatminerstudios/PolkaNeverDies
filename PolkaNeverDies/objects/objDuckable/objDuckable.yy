@@ -1,18 +1,18 @@
 {
-    "id": "20ba50ee-ce6f-4f52-a7f7-38391394c9c8",
+    "id": "f5bd7400-73bd-416b-8474-8e31801f5cfb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "objJumpable",
+    "name": "objDuckable",
     "eventList": [
         {
-            "id": "babc43e3-2947-4f04-9c70-d8dcec6c9fa3",
+            "id": "6430660f-8895-4137-99dc-9cd7b9f402f5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "20ba50ee-ce6f-4f52-a7f7-38391394c9c8"
+            "m_owner": "f5bd7400-73bd-416b-8474-8e31801f5cfb"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a13dc131-315f-4ab6-b131-d941782beb49",
+    "spriteId": "498ad46c-ab8f-4a80-aa4b-5b850d480d38",
     "visible": true
 }

@@ -46,10 +46,28 @@ switch(act) {
       scrDeactivateHeart(self.id);
     }    
     break;
+  case "duck":
+    //Duck all characters;
+    with (objBand) {
+      scrDeactivateHeart(self.id); 
+    }
+    
+    break;
+  case "leftSpecial":    
+  case "rightSpecial":
+    with (objBand) {
+      scrDeactivateHeart(self.id); 
+    }
+    break;
+  
+  
+  case "miss":
+  //If they skip an input, do nothing
+    break;
   case "badleft":
   case "badright":
   case "badup":
-  case "baddown":
+  case "baddown":  
     //There was a bad input, so blat and don't move
     scrPlayBadNote(act);    
     break;

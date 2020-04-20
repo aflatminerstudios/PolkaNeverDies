@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 if (!postCheck && objBeat.activeMeasure) {
+ /* postCount = 0;
+  preCount++;
+  show_debug_message("Pre check " + string(preCount) + "   ======================");*/
   //Get what is about to move off buffer
   var top = buffer[0];
   
@@ -46,11 +49,17 @@ if (!postCheck && objBeat.activeMeasure) {
 
 }
 if (postCheck) {   
-  
+  /*preCount = 0;
+  postCount++;
+  show_debug_message("Post check " + string(postCount) + "   -----------------");*/
   //If in post-check, check for input  
   postCheckCount += 1;  
   
   if (postCheckCount > postCheckMax) {    
+    
+    if (ds_list_size(objBeatBuffer.commands) != (objBeat.curBeat + 1)){
+      scrQueueInput("miss"); 
+    }
     
     //At the end of postcheck, check if buffer matches number of beats
     //This lets you process inputs JUST after the last beat of measure and still get credit
