@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "objJumpable",
     "eventList": [
-        
+        {
+            "id": "babc43e3-2947-4f04-9c70-d8dcec6c9fa3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "20ba50ee-ce6f-4f52-a7f7-38391394c9c8"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

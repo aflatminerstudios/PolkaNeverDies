@@ -20,6 +20,17 @@ with (char) {
     var numSteps = jumpHeight / jumpVSpeed;
     var xChange = 2 * jumpHSpeed * numSteps;
     
+    /*In theory, jumper has from top of jumpable sprite to top of height and back down
+      to jumpable ssprite to get far enough right not to hit the jumpable sprite.      
+      So, (jumpHeight - spriteHeight) * 2 vertical pixels to move. 
+      Needs to travel distance from self to sprite, plus the whole size of the sprite.
+      So, ((x of nearest jumpable) - x) + (sprite_width/2) is the amount to move/
+      Travels jumpVSpeed vertical pixels a step and jumpHSpeed horizontal pixes/step
+      */
+      
+    var nearestJumpable = 0;
+    var pixelsToMove = (jumpHeight - 0);
+    
     if (place_meeting(x + xChange, y, objJumpable)) {
       //Make sure you will not land on object (doesn't take into account object height)
       while (place_meeting(x + xChange, y, objJumpable)) {        
