@@ -46,6 +46,10 @@ switch(act) {
       scrDeactivateHeart(self.id);
     }    
     break;
+  case "duck":
+    //Duck all characters;
+    
+    break;
   case "miss":
   //If they skip an input, do nothing
     break;
