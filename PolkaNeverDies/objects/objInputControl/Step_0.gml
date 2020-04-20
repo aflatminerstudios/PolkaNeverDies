@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 if (!postCheck && objBeat.activeMeasure) {
+ /* postCount = 0;
+  preCount++;
+  show_debug_message("Pre check " + string(preCount) + "   ======================");*/
   //Get what is about to move off buffer
   var top = buffer[0];
   
@@ -46,7 +49,9 @@ if (!postCheck && objBeat.activeMeasure) {
 
 }
 if (postCheck) {   
-  
+  /*preCount = 0;
+  postCount++;
+  show_debug_message("Post check " + string(postCount) + "   -----------------");*/
   //If in post-check, check for input  
   postCheckCount += 1;  
   

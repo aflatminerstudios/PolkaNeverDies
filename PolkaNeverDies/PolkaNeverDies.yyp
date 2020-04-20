@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "cfeff36d-c520-40ab-8e1b-d93dc5dc8a7c",
+            "Value": {
+                "id": "2e37aaae-8203-4954-abf0-97b0b1cfdce5",
+                "resourcePath": "sounds\\sndZombieKill\\sndZombieKill.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d122d718-df05-4914-a027-801fb0b22138",
             "Value": {
                 "id": "7de8f9ea-5cc6-4d78-867c-7e271a93a13e",
@@ -1108,6 +1116,14 @@
                 "id": "35343d03-03b4-48da-be05-8c9a21bd50f6",
                 "resourcePath": "views\/f44ac2e6-f56f-41fa-9656-cd4a4f8c1dc8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f5bd7400-73bd-416b-8474-8e31801f5cfb",
+            "Value": {
+                "id": "745fe3a5-b914-4730-b8c3-1960af50d6f1",
+                "resourcePath": "objects\\objDuckable\\objDuckable.yy",
+                "resourceType": "GMObject"
             }
         },
         {

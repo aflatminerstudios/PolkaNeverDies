@@ -46,6 +46,21 @@ switch(act) {
       scrDeactivateHeart(self.id);
     }    
     break;
+  case "duck":
+    //Duck all characters;
+    with (objBand) {
+      scrDeactivateHeart(self.id); 
+    }
+    
+    break;
+  case "leftSpecial":    
+  case "rightSpecial":
+    with (objBand) {
+      scrDeactivateHeart(self.id); 
+    }
+    break;
+  
+  
   case "miss":
   //If they skip an input, do nothing
     break;
