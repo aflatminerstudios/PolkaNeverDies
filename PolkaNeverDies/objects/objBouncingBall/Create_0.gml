@@ -18,10 +18,11 @@ steps = room_speed * 60/objBeat.bpm;
 bouncing = false;
 falling = false;
 
+/*
 goal0 = instance_create_depth(x - xMovement, y, depth, objBallGoal);
 goal1 = instance_create_depth(x, y, depth, objBallGoal);
 goal2 = instance_create_depth(x + xMovement, y, depth, objBallGoal);
 goal3 = instance_create_depth(x + xMovement*2, y, depth, objBallGoal);
-
+*/
 
 scrBounceBall();
