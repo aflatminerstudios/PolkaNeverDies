@@ -61,7 +61,6 @@ if (which != " ") {
   scrEmptyBuffer();
   
  //Lets input control know an input has been queued
- //TODO: Maybe put postcheck=false here? That may get rid of the bug w/ last beat
  with (objInputControl) {
     hasInput = true;
  }

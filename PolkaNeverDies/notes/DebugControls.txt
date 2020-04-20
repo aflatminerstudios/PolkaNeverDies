@@ -3,7 +3,7 @@ Tab = turn debug display on/off
 a = metronome on/off
 s = play song on/off 
 
-1 = dencrease buffer size by 5
+1 = decrease buffer size by 5
 2 = increase buffer size by 5
 
 q = decrease post check size by 5
@@ -15,3 +15,5 @@ h = increase horde move
 9, 0 = prev/next character
 u, i = increase/decrease speed by 1
 o, p = increase/decrease steps by 5;
+
+backspace = toggle strict recipes

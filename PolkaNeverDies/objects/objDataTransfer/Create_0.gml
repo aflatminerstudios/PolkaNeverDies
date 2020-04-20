@@ -5,3 +5,4 @@
 won = false;
 points = 0;
 numSurvivors = 0;
+strictRecipes = false;

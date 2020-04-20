@@ -12,6 +12,10 @@ with (objBeatBuffer) {
     }   
   }
   
+  if (!objDataTransfer.strictRecipes) {
+    s = string_replace_all(s, "bad", "");
+  }
+  show_debug_message(s);
   ///TODO: Fix this so it accepts bad inputs, but have a variable to check for strict inputs
   //Return the command if it matches a known recipe
   if (!is_undefined(recipes[? s])) {

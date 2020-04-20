@@ -7,7 +7,7 @@ if (displayDebug) {
   draw_text(50, 600, "Post size (q/w): " + string(objInputControl.postCheckMax));
   draw_text(50, 650, "Horde Move (g/h): " + string(objHorde.moveSpeed));
   
-
+/*
   if (objInputControl.badInput) {
     draw_sprite(sprTestBand, 0, 800, 25);
   }
@@ -15,7 +15,7 @@ if (displayDebug) {
   if (objInputControl.hasInput) {
     draw_sprite(sprTestHorde, 0, 800, 125);
   }
-  
+  */
   
   if (objBeat.activeMeasure) {
     draw_text(500, 75, "Go!");

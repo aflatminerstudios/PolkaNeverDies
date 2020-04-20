@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (!postCheck) {
+if (!postCheck && objBeat.activeMeasure) {
   //Get what is about to move off buffer
   var top = buffer[0];
   
@@ -13,7 +13,7 @@ if (!postCheck) {
 
   //Don't process bad input more than once
   if (!badInput) {
-  
+    
     //Fill buffer with input if appropriate
     buffer[bufferSize - 1] = scrCheckInput();
     
@@ -32,17 +32,26 @@ if (!postCheck) {
       //Add bad to set invalid
       badString = "bad" + top;    
       scrQueueInput(badString);
+      show_debug_message(badString);
+      //Uncomment to print buffer
+    var s = "";
+    for (var i = 0; i < bufferSize -1; ++i) {
+      s = s + " : " + buffer[i]; 
+    }
+
+    show_debug_message(s);
     }
 
   }
 
 }
 if (postCheck) {   
-  //If in post-check, check for input
   
+  //If in post-check, check for input  
   postCheckCount += 1;  
   
   if (postCheckCount > postCheckMax) {    
+    
     //At the end of postcheck, check if buffer matches number of beats
     //This lets you process inputs JUST after the last beat of measure and still get credit
     if (ds_list_size(objBeatBuffer.commands) == objBeat.measure){
@@ -65,6 +74,7 @@ if (postCheck) {
     var input = scrCheckInput();
     if (input != " " && !hasInput) {
       scrQueueInput(input);
+      
       postCheckCount = postCheckMax;      
       hasInput = true;    
     }
