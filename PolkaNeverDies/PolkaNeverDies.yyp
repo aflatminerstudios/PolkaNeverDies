@@ -871,6 +871,14 @@
             }
         },
         {
+            "Key": "cfeff36d-c520-40ab-8e1b-d93dc5dc8a7c",
+            "Value": {
+                "id": "2e37aaae-8203-4954-abf0-97b0b1cfdce5",
+                "resourcePath": "sounds\\sndZombieKill\\sndZombieKill.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d122d718-df05-4914-a027-801fb0b22138",
             "Value": {
                 "id": "7de8f9ea-5cc6-4d78-867c-7e271a93a13e",
