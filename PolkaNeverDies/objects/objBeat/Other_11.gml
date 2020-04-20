@@ -52,3 +52,5 @@ with (objBand) {
     sprite_index = duckSprite;
   }  
 }
+
+scrBounceBall();
