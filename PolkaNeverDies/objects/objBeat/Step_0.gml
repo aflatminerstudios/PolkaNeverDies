@@ -18,11 +18,12 @@ if(audio_is_playing(activeSongAudio) && activeSongGain != activeSongTargetGain) 
 var beatLength = 1.0*60/bpm;
 var measureLength = measure*beatLength
 var loopLength = measuresInSong*measureLength;
+var introLength = measuresInIntro*measureLength;
 
 var trackPosition = 1.0*audio_sound_get_track_position(activeSongAudio);
 //show_debug_message("   ===Micha=== TrackPosition/LoopLength: " + string(trackPosition) + "/" + string(loopLength));
 
-if(trackPosition >= loopLength) {
+if(trackPosition >= loopLength + introLength) {
 	var newTrackPosition = trackPosition - loopLength
 	audio_sound_set_track_position(activeSongAudio, newTrackPosition);
 	show_debug_message("   ===Micha===   Rewound track one loop to: " + string(newTrackPosition));
