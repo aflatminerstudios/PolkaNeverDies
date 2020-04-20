@@ -40,9 +40,9 @@ if (jumping) {
     
     x += jumpHSpeed;
     //Slide if encountering object
-    if (!place_meeting(x, y + jumpVSpeed, objBlockingParent)) {   
+    //if (!place_meeting(x, y + jumpVSpeed, objBlockingParent)) {   
       y += jumpVSpeed;
-    }
+    //}
     
     jumpCount++;
 
@@ -52,6 +52,7 @@ if (jumping) {
       jumping = false;
       landing = false;
       jumpCount = 0;
+      show_debug_message("Stop jump at: " + string(x));
     }
   }
   

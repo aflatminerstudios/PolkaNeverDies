@@ -33,3 +33,6 @@ with (objDataTransfer) {
 song[0] = sndMusic_34_120;
 bpm[0] = 120;
 measure[0] = 34;
+
+///TODO: Remove this
+nextSpawn = 10;
