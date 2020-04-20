@@ -258,7 +258,7 @@
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Sky",
             "id": "72a1c504-6af3-402f-b218-39eb6b0fef52",
-            "animationFPS": 2,
+            "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4294967295 },
             "depth": 600,

@@ -58,18 +58,3 @@ with (objBand) {
 }
 
 scrBounceBall();
-
-// Re-synchronize the zombie, moon, and stars with the beat
-if((totalBeat mod 2) == 0) {
-	var moonLayer = layer_get_id("Moon");
-	var moonBGID = layer_background_get_id(moonLayer);
-	layer_background_index(moonBGID, 0);
-	
-	var skyLayer = layer_get_id("Sky");
-	var skyBGID = layer_background_get_id(skyLayer);
-	layer_background_index(skyBGID, 0);
-	
-	with(objHorde) {
-		image_index = 0;	
-	}
-}

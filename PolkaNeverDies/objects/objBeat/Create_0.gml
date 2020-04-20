@@ -20,7 +20,6 @@ song = sndMusic_34_120;
 measure = 3;
 bpm = 120;
 measuresInSong = 4;
-measuresInIntro = 0;
 
 //For playing song
 activeSongAudio = noone;
