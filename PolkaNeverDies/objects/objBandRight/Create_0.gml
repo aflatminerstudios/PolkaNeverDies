@@ -4,7 +4,7 @@
 event_inherited();
 
 //Movement variables
-forwardSpeed = 5;
+forwardSpeed = 6;
 forwardSteps = room_speed/3;
 
 //spawn heart

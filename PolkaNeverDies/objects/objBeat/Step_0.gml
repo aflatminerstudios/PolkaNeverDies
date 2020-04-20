@@ -9,10 +9,15 @@ if (!audio_is_playing(song)) {
 
 activeSongTargetGain = playSong ? 1.0 : 0.0;
 
+//TODO: Reset this
+//audio_sound_gain(activeSongAudio, 0.0, 0.00);
+
 if(audio_is_playing(activeSongAudio) && activeSongGain != activeSongTargetGain) {  
 	audio_sound_gain(activeSongAudio, activeSongTargetGain, 0.05);
 	activeSongGain = activeSongTargetGain;
 }
+
+
 
 
 var beatLength = 1.0*60/bpm;

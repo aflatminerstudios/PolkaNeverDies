@@ -7,7 +7,7 @@ if (bouncing) {
   var trackPosition = 1.0*audio_sound_get_track_position(objBeat.activeSongAudio);  
   var goalPosition = startMove + beatLength;
   var pct = 1 - (goalPosition - trackPosition)/beatLength;
-  show_debug_message(pct);
+  
   if (pct >= 0.95)
     pct = 1.0;
   if (beats < measureLength) { 
@@ -21,8 +21,6 @@ if (bouncing) {
         falling = false;
         bouncing = false
         x = baseX + xMovement;;
-        show_debug_message("New x = " + string(x));
-        show_debug_message(string(x) + " : " + string(baseX));
       }
     } else {
       //Bouncing up

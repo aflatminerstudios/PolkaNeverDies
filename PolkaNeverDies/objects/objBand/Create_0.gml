@@ -7,6 +7,7 @@ forwardSpeed = 1;
 forwardSteps = room_speed/10;
 forwardGoal = 0;
 forwardCount = 0;
+stop = false;
 
 //For jumping
 jumpHeight = 300;

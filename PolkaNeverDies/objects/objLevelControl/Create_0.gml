@@ -8,7 +8,7 @@ curLevel = 0;
 baseMove = 104;
 
 //End of level and spawn times for this level
-levelEnd[0] = 5000;
+levelEnd[0] = 10;
 minSpawn[0] = 1000;
 maxSpawn[0] = 3000;
 
@@ -27,12 +27,7 @@ lastSpawn = 0;
 //When will the next obstacle spawn?
 nextSpawn = irandom_range(100, 500);
 
-//for gameover
-with (objDataTransfer) {
-  won = false;
-  points = 0;
-  numSurvivors = 0;
-}
+
 
 // For setting horde variables
 alarm[0] = 1;
@@ -40,5 +35,8 @@ alarm[0] = 1;
 //Currently not used
 song[0] = sndMusic_34_120;
 bpm[0] = 120;
-measure[0] = 34;
+measure[0] = 3;
+measuresInSong[0] = 4;
 
+
+scrResetLevel(0);

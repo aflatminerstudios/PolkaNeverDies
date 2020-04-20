@@ -12,9 +12,13 @@ if (moveForward) {
   x += forwardSpeed;
   forwardCount++;
   //Finish if you've reached goal
-  if (forwardCount > forwardGoal) {
+  if (forwardCount > (room_speed * 60/objBeat.bpm)) {
     moveForward = false; 
-  }
+    stop = false;
+    forwardCount = 0;
+  }/* else {
+    stop = false; 
+  }*/
   
   //Make sure you don't collide with something
   while (place_meeting(x, y, objBlockingParent)) {   

@@ -51,6 +51,10 @@ with (objBand) {
     x += 2;    
     sprite_index = duckSprite;
   }  
+  
+  if (moveForward == true && stop == true) {
+    stop = true;
+  }
 }
 
 scrBounceBall();

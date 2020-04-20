@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "0e94d760-5cbe-4d03-a6b4-36ed8f41708c",
+            "Value": {
+                "id": "2f2d6864-ce97-4863-bdc5-0921f29b017e",
+                "resourcePath": "fonts\\fntGameOverHeading\\fntGameOverHeading.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0fe1a8fb-1ccb-4dbe-990a-2c65cf092d7d",
             "Value": {
                 "id": "5c0b2dc2-6382-48d5-b23b-dd021dedfd57",
@@ -212,6 +220,14 @@
                 "id": "62365cc3-97b4-4fc8-880e-c24110737600",
                 "resourcePath": "sprites\/sprCamera\/sprCamera.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23c1536f-f55d-4df3-a607-64adf6522f8a",
+            "Value": {
+                "id": "016d26ff-7680-4d78-9141-abcd5c03c239",
+                "resourcePath": "fonts\\fntGameOverSubheading\\fntGameOverSubheading.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -508,6 +524,14 @@
                 "id": "5b0c8bc4-6069-4de9-a91d-3ffdc3fb5034",
                 "resourcePath": "sprites\/sprTestBG2\/sprTestBG2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "601874f0-6d88-459d-af39-294670171bf1",
+            "Value": {
+                "id": "74b3cb95-bc48-4413-9b5e-d516fce74eca",
+                "resourcePath": "fonts\\fntGameOver\\fntGameOver.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1095,6 +1119,14 @@
             }
         },
         {
+            "Key": "c63adfa0-ad57-4366-9bfc-6aa4a53d3e4e",
+            "Value": {
+                "id": "0b840ea5-2096-46d1-b7e6-a9e6fa6975af",
+                "resourcePath": "scripts\\scrResetLevel\\scrResetLevel.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c68d2ae0-a294-430f-bbf9-d04bdf70f927",
             "Value": {
                 "id": "54e3d8f8-df7f-4a4a-b5c9-b4bdb2229875",
@@ -1591,6 +1623,7 @@
         "2a170faf-fec2-40ec-a3ec-5b500d1c1bda",
         "fd06fa52-d8c5-4802-bc3e-f3caf5ec3f62",
         "fff31a31-fe61-4dd2-9be3-793503488bb1",
+        "c63adfa0-ad57-4366-9bfc-6aa4a53d3e4e",
         "90bacfbe-8e0c-47fc-8cc1-69be72f794ca",
         "cbab5b2e-10c5-4c6a-9161-eb58dcaf7c71"
     ],
