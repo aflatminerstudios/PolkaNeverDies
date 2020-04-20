@@ -1,0 +1,258 @@
+assets: 
+  - "sprites | GMSprite | 9d13db9f-5b33-4f0b-8558-526da1fec75b | 82036194-0685-4a49-b569-350e87c130a5": 
+      - "AFlatLib | GMSprite | 2bce8180-51ed-4c0f-b2f2-83ef5444e1af | aeaf8740-1b39-49b1-95b1-7bb405ef6e61": []
+      - "Band | GMSprite | 8a480a30-75ea-4ffb-9759-b0e338eeda2b | 74b54723-ffaa-49e2-a43d-e0802fa0d4e4": 
+          - "?sprAccordion | GMSprite | b034ed86-4ec5-47fc-9bbd-218e7ae8f197 | 8d4a8f4f-c5aa-48a4-831f-26bef3f8eb79"
+          - "?sprDrum | GMSprite | d93c3bd2-94a3-468b-ab06-da59134b435c | 881f686d-88a2-48d2-8a74-fc83bed191ec"
+          - "?sprTrombone | GMSprite | 1982e406-ef0f-4a22-885f-e696e5903784 | adfd6822-cc13-4ed9-93df-c728e21807c1"
+          - "?sprTuba | GMSprite | 3499baec-326b-4cbe-85b4-73b09006ad7d | 3a9a3a8b-21f8-4e1d-8a91-03c4eb79f27d"
+          - "?sprKillCloud | GMSprite | e7250c3b-161a-45b0-b662-caa830dce5b3 | ed41c10f-627f-463d-97f0-1132a032e435"
+          - "Drum | GMSprite | 467a8547-11d9-46c8-ad27-ca796018ff45 | be11e270-ddba-47b3-bc8f-a41350540f76": 
+              - "?sprDrumIdle | GMSprite | 00d47fa2-3566-45f4-aebd-aedc8d42ed8c | 2f80be2a-e593-4fed-8335-35c379d90729"
+              - "?sprDrumStep | GMSprite | bea3eef7-804d-48d2-82ce-d1916bc8b68e | 55a5c3da-e1e1-4be9-8765-5f8b4c316509"
+              - "?sprDrumJump | GMSprite | 9e9a8a57-e12f-47aa-bb4f-dded244e0d66 | 528b6ddf-4c55-4dc7-8d6c-dda613cdc8df"
+              - "?sprDrumFall | GMSprite | c33739c8-fbfc-449d-947e-0a95094212e6 | bc90a350-3dd6-4c34-acdd-a94d5ab365b3"
+              - "?sprDrumDuck | GMSprite | 3c539bae-66d5-4f77-bfca-325b4cd1ee8f | 4e9c9086-cd22-45c3-ae9d-b8e719e6ad2a"
+          - "Tuba | GMSprite | 172f54ef-6813-4b2b-8c20-32ef9c7c1ee4 | 944774f8-7c35-4f8f-bb8d-0ba349767ecb": 
+              - "?sprTubaIdle | GMSprite | 31553424-c5a5-4383-b8d3-93fe37b18123 | e6b111c9-6b75-4502-81f6-3b1c5b71eb93"
+              - "?sprTubaStep | GMSprite | eb9e5c12-c85c-4451-a458-d7c1f9fd22e9 | 98358231-a3bb-4bf9-960b-0bc432c58bd8"
+              - "?sprTubaJump | GMSprite | 0162d6c7-4582-4afe-a86a-98f5d187e762 | 2f6b36a8-bef3-4370-8dad-2f13fe0cfb14"
+              - "?sprTubaFall | GMSprite | e0c94ed8-84c6-4638-a285-dd11a8b0e18a | e7a538c5-e909-486f-85f4-b74becbe9b08"
+              - "?sprTubaDuck | GMSprite | 86444c0f-6a5f-400f-bd37-acbe91f030d1 | 5d0103fd-061f-4186-ada0-687f93db5fce"
+          - "Accordion | GMSprite | 26b0f385-8b01-40c4-b777-db202ec52173 | cda2cc5d-ef06-4bfc-a7ef-e9e93b5bf239": 
+              - "?sprAccordionIdle | GMSprite | 98c0989d-e844-405e-967a-68a4bd40fad8 | b214b5e7-6a50-4b22-92eb-dd67933e3f0e"
+              - "?sprAccordionStep | GMSprite | b5760ff4-913d-4902-8b07-101d932beed8 | 1bdd8798-2af9-40b7-bbe8-95fc39dc239d"
+              - "?sprAccordionJump | GMSprite | 2455686b-a39b-4503-b543-8cd6f6349371 | 5b3bb049-c3b0-42c8-8cb5-3faec7800da6"
+              - "?sprAccordionFall | GMSprite | 6869f3a1-cd5c-49e9-b0ea-5fdf78146bad | ac38f709-d14d-49a0-b410-d9a47fef3a6c"
+              - "?sprAccordionDuck | GMSprite | e588366c-7e09-4065-88f4-367b7011288f | cd6d7e24-b8ef-4cd0-a015-19005c789ab1"
+          - "Trombone | GMSprite | 2478f48e-b9ad-4deb-bc91-dfb443bd2332 | 4fde3870-9a27-43b2-885a-282e5e1952b7": 
+              - "?sprTromboneIdle | GMSprite | d203f6c1-a8d9-464f-9bcd-64be0538b567 | 98666e94-fd15-4af2-874b-8d2b005985ca"
+              - "?sprTromboneStep | GMSprite | 9b26bc27-0fbd-483e-b657-0f86ad0478e0 | 96156ba3-d7d2-4f3a-9589-ac40aedc858b"
+              - "?sprTromboneJump | GMSprite | 0b27e164-e178-4980-92ad-baabe8e57783 | e1326739-74ee-4394-ac70-2652508b686d"
+              - "?sprTromboneFall | GMSprite | cce207b0-7664-4ff6-b097-51d29da77b09 | d75743b5-4f29-445a-89a3-d8d8214c167b"
+              - "?sprTromboneDuck | GMSprite | 605700f2-e6e1-4a3d-99e3-82ee16aa8f30 | 9ca084fa-63ff-40ea-a6aa-175afe565755"
+      - "Environment | GMSprite | 55858f82-75df-4758-ba54-a5fa0f791871 | a2d95651-47c7-4097-8fbe-07c76fdb9de8": 
+          - "?sprFinish | GMSprite | 96059523-9ddf-47ba-a834-c8615f7fe59e | e63d1975-ea26-4765-a6c2-0adac4e538fb"
+      - "Enemies/Obstacles | GMSprite | f75145f5-3a0d-4f25-8408-24118b8c69e8 | 4a3b961c-a3de-43c9-af23-a37dc628d17c": 
+          - "?sprHorde | GMSprite | 7bc9d780-90b2-4d10-93f1-43b09d5954bd | d874c1a0-a463-4034-a2a9-3b2d0d5ac8d0"
+          - "?sprRock | GMSprite | a13dc131-315f-4ab6-b131-d941782beb49 | fba50c1b-81d3-40f1-9615-311d93e2f153"
+      - "Test | GMSprite | 58abd743-21d0-4494-a961-06715f09d03d | 4fbbbea3-86f8-454a-a0c7-7daaf19b0825": 
+          - "?sprTestBackground | GMSprite | 24dff116-852b-4a07-adc8-632d610cf026 | 7bb926d0-cec1-46cd-8cbd-11a20186e2c9"
+          - "?sprTestMidGround | GMSprite | 5bd8a761-0ea2-4460-aca2-0b01648d68b0 | 8d779437-2cc2-4b48-926e-4c4ca0a1a80c"
+          - "?sprTestSquare | GMSprite | 498ad46c-ab8f-4a80-aa4b-5b850d480d38 | b3409872-66d1-415c-9f58-25618112e710"
+          - "?sprTestBG1 | GMSprite | 36ac98ab-0e87-459e-9637-6a0a48fe96c8 | 51e6fad4-7349-48c2-8f16-d6e91e2dc022"
+          - "?sprTestBG2 | GMSprite | 5c0dd667-b0ef-4624-9968-420e025bb3de | 5b0c8bc4-6069-4de9-a91d-3ffdc3fb5034"
+          - "?sprTestSky | GMSprite | 6e52fe04-c64a-4fe8-ac92-80957eefbf40 | 095b7342-8919-4e26-bed0-81993868e708"
+          - "?sprRoadwork | GMSprite | 690e7f25-6464-4e2f-8333-9fc072b8ac29 | f00cbb79-e12c-48ac-bd45-5d3f508e1f69"
+          - "?sprTestHorde | GMSprite | 6d996847-9c40-42ec-ad35-a304b12a6e6c | 05e99567-7b90-4faa-9de3-1a0ad3d146f6"
+          - "?sprTestBand | GMSprite | 2e39dd08-3e87-4845-bb67-5b500d32b4ad | 126992f4-f716-427f-8e7c-42de47a673ea"
+          - "?sprMoon | GMSprite | dced052b-c141-42e2-afb3-a99f22e28207 | 0d233c35-74e1-4d29-a5d2-45a468786656"
+      - "?sprCamera | GMSprite | 2297308c-4ff1-4a73-ab93-9aa68c45ccd9 | 62365cc3-97b4-4fc8-880e-c24110737600"
+      - "UI | GMSprite | 1d655fb9-77ba-4efe-9b1a-fb0a3c990e6a | 91e72c5d-2e77-45ca-8375-fea037bca91b": 
+          - "?sprBouncingBall | GMSprite | c68d2ae0-a294-430f-bbf9-d04bdf70f927 | 54e3d8f8-df7f-4a4a-b5c9-b4bdb2229875"
+          - "?sprBallGoal | GMSprite | b2231736-26c3-4873-9f56-90212ba42659 | e4d716ad-6a6f-4dfe-a746-7726696aa354"
+          - "?sprArrowKey | GMSprite | 57f44220-cceb-4d4e-85ee-093befbdbe0b | 5840171f-cb22-494c-ab31-89e29aaf7ee1"
+          - "?sprTubaHead | GMSprite | e3d09932-c3ed-43ae-ade9-bc0b56bce570 | 8d6e65a0-2a9e-4fc7-8f65-71ac09149d55"
+          - "?sprTromboneHead | GMSprite | d01f2c62-9f9e-4c56-bf50-1a547f2939fe | 46373e7f-5099-4b85-8608-b076a907de77"
+          - "?sprAccordionHead | GMSprite | cbed61df-9bd5-4f74-ba60-f7a24bd88b54 | c0156787-a316-48d8-a745-dabdd7d00894"
+          - "?sprDrumHead | GMSprite | 27ccc919-4e1e-4df1-baea-49d8c6a8b2dc | 72862fcc-675e-41d9-84d4-16bc1304b071"
+          - "?sprTubaHead1 | GMSprite | 4472417c-c6e9-4838-9257-47cfb4e52cfb | 00a0d6e5-a9d6-4143-82f5-fdc9b12aad35"
+          - "?sprTromboneHead1 | GMSprite | 18708e9c-c80e-437c-a4a1-19ffb8979dd0 | 81e4a8f0-33c4-41c2-81c3-54d01c92017b"
+          - "?sprAccordionHead1 | GMSprite | 058fdca8-3096-48d6-8a53-575b7305845f | f6905f77-bf2c-4b70-b5fc-35417d3e44cc"
+          - "?sprDrumHead1 | GMSprite | 70d6fa59-c5ed-4aa9-9ef7-a359650b06b4 | 4c122c47-bc87-45a5-8f75-f08ee42cc6a3"
+      - "Title/Credits | GMSprite | 3dbdd951-ad4f-408e-9f1b-5e55e2b83d0e | 9c06e26a-2fd7-415c-82f9-d682bb41b83a": 
+          - "?sprTitleName | GMSprite | 5b58ef41-8fe5-4559-8d47-45516f6b7427 | 6b28095d-68a4-4c1a-963e-f62a1d920625"
+          - "?sprTitleCharacters | GMSprite | 10712c51-e7ea-4d52-a05f-2167783e4af9 | f17a3fac-6d5c-4d63-990e-9c5a1b17fa31"
+          - "?sprCreditsPlaque | GMSprite | a2da6060-a226-447e-8831-985b8b728803 | d4db3bb9-fc81-47b9-92f7-22a0083f0865"
+          - "?sprInstructionsPlaque | GMSprite | a1fd8885-ff75-4d11-85f4-c98c19bb8d31 | 10aabf84-57a8-4247-9ba2-5985cc34b109"
+          - "?sprArrow | GMSprite | 803979ae-960d-4bf4-a06e-11786206be98 | 717c56f2-f7c1-4b00-ac50-ca7a80a6980e"
+          - "?sprArrowLeft | GMSprite | 773dd82b-f30b-49cc-9cb7-7ed089715d3b | 7617b01b-1922-4e43-b3a5-d043f07f696d"
+          - "?sprArrowRight | GMSprite | 0769640e-e526-419e-8838-5138e6563ab4 | a3a81709-df59-4cd4-a580-f00835337217"
+          - "?sprArrowUp | GMSprite | 7c1a87fe-8213-40e0-b4bd-90f42a269e6d | 8f59267b-51df-4a95-99fc-7d89e7c1acff"
+          - "?sprArrowDown | GMSprite | c5539cd7-e0b5-40c0-9dcc-6c0e23852f7a | 48809826-059b-42f5-9e5b-f6e4d579aefa"
+      - "?sprHeartFull | GMSprite | 0ab90979-086d-4a96-99a7-71144a8d945c | 234e9ace-a705-4945-b711-5095b2dcc719"
+      - "?sprHeartZombie | GMSprite | 511dc93b-6c9b-4ae0-bab2-00bfb9918098 | b348677a-f448-449f-b1df-6a17fb2ad8c5"
+      - "?sprHeartEmpty | GMSprite | 7d04adcc-b5e2-43fe-9fd2-609fd2b5d066 | 3db0011e-61d9-4d73-aa1f-3ab83f2307d9"
+  - "tilesets | GMTileSet | bec0ac80-1a64-4260-b826-609969d216a5 | 43dccc66-4ae1-4783-8482-d97a287c5570": []
+  - "sounds | GMSound | 0fe1a8fb-1ccb-4dbe-990a-2c65cf092d7d | 5c0b2dc2-6382-48d5-b23b-dd021dedfd57": 
+      - "Music | GMSound | f7ff6629-8e0f-4c66-9980-c99523a08048 | ca202a92-fc10-4d36-abcc-ee225bf43e3b": 
+          - "?sndMusic_24_130 | GMSound | 6f74497a-824a-4867-bda3-82e4acb219df | 93179fbc-3076-4564-8ce1-f5b903d2340f"
+          - "?sndMusic_34_120 | GMSound | b5d71bd1-8d37-4060-81ae-f64282085a24 | bc343241-a732-427e-bb74-e7e5e28e36a9"
+          - "?sndMusic_24_150 | GMSound | b582675b-9e9a-418c-887a-132f805c8a23 | b20d3619-612d-487f-8b4e-48df42a61943"
+          - "?sndMusic_34_100 | GMSound | d2006478-e16b-40ef-ba3d-07e4c551311f | 168ab5ff-82e8-4407-8302-32f28283b4b5"
+          - "?sndMusic_44_120_New | GMSound | bc53e103-efeb-4abe-8e99-b0457189e8ae | aaa73483-1849-4f25-9e59-8fce9f053b12"
+      - "Effects | GMSound | 84513786-b2f8-44f0-8783-dd2edf6a1dd9 | eeb5d4b6-967f-4c3a-9b4c-0305ebe60be2": 
+          - "?sndMeasure | GMSound | a545a55d-9343-4957-9d02-9301f9ab12e2 | 30caeacb-3965-42f1-978e-da86547b26c0"
+          - "?sndBeat | GMSound | 5b3b26ae-e8dc-44ee-9516-e5e6d2fc639f | a9fe7a99-9727-4105-b3d7-9967d44e7543"
+          - "?sndBlat | GMSound | b403f564-e169-40aa-bbaf-ca392ad76493 | 935b2753-f52f-43ca-8e2d-1a5b96240cb1"
+          - "?sndZombieKill | GMSound | cfeff36d-c520-40ab-8e1b-d93dc5dc8a7c | 2e37aaae-8203-4954-abf0-97b0b1cfdce5"
+  - "paths | GMPath | eef5ad89-f51a-47bc-849d-c3d2b785e741 | 49d09123-992e-4fc0-b2cd-c4bbc09c929a": []
+  - "scripts | GMScript | 0e0d363e-3b5d-4a7b-846e-4ab8b08c3ae8 | 12db54a0-c87a-4e42-b6ef-9b5558d6050f": 
+      - "Micha | GMScript | 9836b313-ab78-4a51-91ef-abe4326d38a1 | 3a3c82d8-052a-4df0-b356-21bea10eb47d": 
+          - "?scrInitialize | GMScript | 158cae64-5f84-465f-9114-d6610c0fb779 | e0bc6a67-b8d3-40fc-9217-77e81a95d6eb"
+          - "?scrUpdateWindowSettings | GMScript | 48c4fc04-2ac8-445e-b76b-2c1944206d36 | c4e9d2ca-c4e3-4fa6-bb30-e1fd414fa1ef"
+      - "John | GMScript | f44ac2e6-f56f-41fa-9656-cd4a4f8c1dc8 | 35343d03-03b4-48da-be05-8c9a21bd50f6": 
+          - "?scrChangeBeatSpeed | GMScript | 06c263e9-29cf-44b5-b6c5-40b9a655419f | 6e78aa23-275c-4338-825f-d3789aa97c86"
+          - "?scrChangeBeatMeasure | GMScript | 602bce19-7fdc-4752-9c9c-4ea555811623 | 9072c837-8d2e-46a1-a909-3f7e462299c0"
+          - "?scrResetBeat | GMScript | c9887765-508a-4975-bd2f-4c6062227fd2 | ad3f933f-0e2e-4b20-939e-6c27c19f4ae4"
+          - "?scrChangeBeat | GMScript | c489c529-2217-4c8c-b7c9-f4fb2663383d | abf8465f-1d1d-4168-aa4f-ab59c49d8574"
+          - "?scrEmptyBuffer | GMScript | 91d79fc5-b572-4ae4-abba-46ee35fe3a7f | 4bbbe2f7-c277-4da6-8e44-42d79ec35164"
+          - "Input | GMScript | f219444e-77fc-47e7-a277-78171ae529ac | b67a5a55-40b0-4d6c-82c8-cb2bdb0fd6c7": 
+              - "?scrCheckRight | GMScript | 212045de-d5b1-46cd-9e28-b6ccca430691 | 7841ebac-38c4-4d8b-99ce-f29e515b262c"
+              - "?scrCheckUp | GMScript | d86f0f1a-eaa2-4e26-9b90-5cecc816b765 | 5a7183ff-7009-4ff3-96b7-ccfcc087e373"
+              - "?scrCheckDown | GMScript | f6a76d10-014f-4f63-8504-42650ea1bbcd | 46b7c766-5d23-44ff-a5eb-9f701fb3f818"
+              - "?scrCheckLeft | GMScript | 9ec1a205-8e75-4aa7-98bb-4942f6345b86 | be371399-6f67-47d6-801a-184d56059d97"
+              - "?scrBeatHandleInput | GMScript | e190b776-bd14-4c49-be1d-55ecd0a0567d | b2169c61-7a65-4dd2-bb34-3151c6a80af6"
+              - "?scrQueueInput | GMScript | f17c4729-1c78-4895-9616-9d4cbd2a19fc | 2c26176a-99b8-4573-9130-1eb7098f7fe6"
+              - "?scrTakeAction | GMScript | 1fe02ac9-5fd7-4cfd-995d-c1f180964dee | 4b755fa2-2e1c-4572-906e-2449b19fc1db"
+              - "?scrCheckInput | GMScript | d122d718-df05-4914-a027-801fb0b22138 | 7de8f9ea-5cc6-4d78-867c-7e271a93a13e"
+              - "?scrMoveCharacter | GMScript | 4eccb319-88f7-41e5-9465-4b5c6074b5c4 | 06a06817-2491-46c0-983a-d74558834983"
+              - "?scrJumpCharacter | GMScript | 8659c2ed-8477-48d0-bd6c-4893945ff203 | a6d31ebb-f9af-4f08-aa24-d4609d1cbe91"
+              - "?scrDuckCharacter | GMScript | 44fadf39-b4ff-4751-af35-529fa7071ce9 | bc407ffa-27ca-4cc7-807c-58a628bd470d"
+          - "Heart | GMScript | 79af7fd7-ba2d-4cbe-84c9-990130ef1be0 | 5b7aeefe-d89d-4dd9-97af-83bba27e96a3": 
+              - "?scrActivateHeart | GMScript | 3d0f5bfe-4a0a-45d3-82ef-f78921de3afe | f8143ccd-84bb-42e1-86dd-9df422270a54"
+              - "?scrDeactivateHeart | GMScript | fc8bd5c9-4c30-4487-b7ae-79ed15dc7ccd | 0db9e838-9f5b-482b-916c-0ffaa473b797"
+              - "?scrBeatHeart | GMScript | 7d3e7654-f599-4249-9a8a-26fc6d921cae | 20940e8a-1471-4a40-b14a-b4444fd5028c"
+              - "?scrZombifyHeart | GMScript | 34d907b7-e6ed-4e9d-967c-28b711fbd571 | a4f4a326-c684-490c-88c5-cc70ab10eac9"
+          - "?scrBuildRecipeList | GMScript | f019373d-b14c-4d35-81b5-e8cc3a13ab5f | 7a610634-143e-40ad-9f2d-8fe77076d14a"
+          - "?scrCheckRecipes | GMScript | 65cefadc-61ae-4f23-a8b5-30ec416cb141 | 3deeb788-51ca-40bf-add5-c2b9c4ae4921"
+          - "?scrResizeBuffer | GMScript | 9ceac099-3dc2-457d-b855-de14c2a8acad | bbceac3d-bfed-4d2c-b576-c2f2fd5f7568"
+          - "?scrKillBandMember | GMScript | f7443610-cf78-45ee-b8b3-deb393a87e02 | a587b62e-d995-44f4-9a1e-b414fe0619aa"
+          - "?scrPlayBadNote | GMScript | a8168ec1-ecd1-4210-9c4d-90dc9ddde255 | 0f112bfc-9862-4652-a0f9-5304b28e8256"
+          - "?scrGameOver | GMScript | 3a13105a-7dc9-4028-86af-34357bff8e9a | 838a795f-4053-428b-b7e0-85faf92de379"
+          - "?scrDestroyObject | GMScript | 2a170faf-fec2-40ec-a3ec-5b500d1c1bda | 020f9a41-fbc0-4181-87d0-324ad7404fbc"
+          - "?scrIncreaseHordeSpeed | GMScript | fd06fa52-d8c5-4802-bc3e-f3caf5ec3f62 | e5b1a652-3e6b-4a28-90c2-905375cef512"
+          - "?scrBounceBall | GMScript | fff31a31-fe61-4dd2-9be3-793503488bb1 | f06b0931-f9b1-43c2-bfc5-aa2136780860"
+      - "AFlatLib | GMScript | e20abf7d-1b54-40e8-8901-4ded700a648e | d5426210-ba28-46ec-8400-ebf164b7cec5": 
+          - "?scrBool2String | GMScript | 90bacfbe-8e0c-47fc-8cc1-69be72f794ca | eccf5f53-69eb-459d-a06e-e0562b5d0d1a"
+          - "?scrFindNearestFront | GMScript | cbab5b2e-10c5-4c6a-9161-eb58dcaf7c71 | 42d5c9c8-ef7d-4735-b701-4945cb0ebed2"
+  - "shaders | GMShader | bb73f25f-dc17-418b-ab56-43c41c8c8a48 | b6c49212-065c-439e-aef2-dfd8ebdd7473": 
+      - "?shdWorldBend | GMShader | a8cff6a1-21b0-42e8-a143-811a218455a5 | 4a5669a9-df0f-4708-879b-91ee3ffe5976"
+  - "fonts | GMFont | 9c33fa96-5299-4504-82e7-c7ad7d2832f9 | 1091a140-b673-4e32-822b-cde16b766f36": []
+  - "timelines | GMTimeline | e576f901-0db6-473f-bc0a-6202c3759fe8 | 36b38442-3775-4d23-add5-827b8437fbc1": []
+  - "objects | GMObject | 7f8742c5-79dc-4330-a359-da6d5716770b | eba688ff-15bd-49e7-8d15-0a6d44ba2757": 
+      - "AFlatLib | GMObject | e299a9b7-b4a4-4d6c-914d-44f870235315 | d31e70e7-e15f-425a-a6fc-7c63e78e842a": []
+      - "Band | GMObject | baa3329e-8c2f-47d8-b8b5-23ddd9f49a91 | 5beed3ec-629c-44f9-9ac3-23248a45724e": 
+          - "?objBand | GMObject | 7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b | f21fc135-f4ed-422d-80e2-238f0501e5ef"
+          - "?objBandRight | GMObject | 7834aa23-f688-43de-89ed-c1e4abf15fc6 | 0b7fae2c-b37b-4e59-8d45-25a7b1c32db2"
+          - "?objBandLeft | GMObject | 8ed4469d-45eb-490e-ba2a-7a9a627fb74e | 41846898-44f8-458d-9869-2dbc39b1ca6c"
+          - "?objBandDown | GMObject | 5a215956-373d-47a1-940c-a4dff98c71f9 | 52a05d48-b108-4e54-a917-928b643da444"
+          - "?objBandUp | GMObject | db15bafd-6aac-492a-825f-6a1f09c26050 | 4077fac2-a9f6-48d8-8853-73a5b0ed4308"
+          - "?objKillCloud | GMObject | d7ef409f-9ed4-40f1-9bb8-e66bcc22e44d | fb92bc5b-ff4f-4736-b399-dca55e500b29"
+          - "?objHeart | GMObject | e445c467-e445-4808-985c-3da1fad75b58 | 057dafda-98f7-4ac5-8b51-8e67c202ed52"
+      - "Environment | GMObject | c6f4704c-d6d9-4c0e-abb0-aaffd3b5cba3 | 5c709350-10a6-47b4-ac31-1c4ebb0bb354": 
+          - "?objFinish | GMObject | 1802e5bd-e01f-45f5-9ea6-c5c22983f279 | 7d48a70b-bb51-4b27-aeb8-923d5060bb58"
+      - "Enemies/Obstacles | GMObject | dd2809c5-cf4b-4165-b89a-0552fb961fed | 5d298b48-2bd4-419f-89ba-0c0a354d9e0b": 
+          - "?objHorde | GMObject | 01ed2aad-da9e-4874-ba95-769d79d9e8c1 | 4b4644a5-5d6a-44ee-a0de-b1b34f4fc3aa"
+          - "?objJumpable | GMObject | 20ba50ee-ce6f-4f52-a7f7-38391394c9c8 | 90fa0585-aa91-4a23-a164-624088c0c202"
+          - "?objBlockingParent | GMObject | 9c431692-8366-4acf-890c-9dfeb8869526 | 5e2c92ee-ea40-4e41-b8dd-7ccacb565a94"
+          - "?objDuckable | GMObject | f5bd7400-73bd-416b-8474-8e31801f5cfb | 745fe3a5-b914-4730-b8c3-1960af50d6f1"
+      - "GameControllers | GMObject | 79700e21-459e-4f32-a221-b509abd17735 | 10d4790f-0f86-4b24-a6fc-945c9e27b883": 
+          - "?objInitialize | GMObject | 24efe836-fbbb-4360-816e-fb6ece7e01da | e0487ac7-3d0c-43b9-9fd2-cf45b3cfe65b"
+          - "?objWindowManager | GMObject | 94893800-23eb-4d5d-bcc3-699ea4a22c11 | 145f7735-efdb-4288-a2a3-165a89eedc60"
+          - "?objGoToMichaTest | GMObject | 30036be4-67b0-4429-92cc-6b4f2e9fa9fe | 8285d24c-d2bf-4355-abda-c089252f595e"
+          - "?objBeat | GMObject | 8a088e2f-add4-4c7a-8c2f-3520c32400b6 | ecaa0d0c-10b4-4879-827d-e5c08689c770"
+          - "?objDebugControls | GMObject | 35902665-520a-4a19-bba0-2d89414714b4 | ccb2957f-72a1-48fa-97d5-296f6961b3cf"
+          - "?objInputControl | GMObject | ed69c20b-da70-4230-9c58-80169e8d0aed | 0cc4b75d-b8a0-492b-b346-4cf3acb86bdd"
+          - "?objBeatBuffer | GMObject | e10182ea-fe73-4395-9b73-ba7568f4490c | aca4bac9-e1d0-45c6-8b8e-1fffb9226f64"
+          - "?objCamera | GMObject | b695203a-553f-4cb8-a08e-b021b055c582 | f3fe8c9d-0c36-4285-b00a-ca1cdb7ee473"
+          - "?objLevelControl | GMObject | 762aa1b3-5a0e-40fe-ac34-f281f51e3cb2 | 720d62d3-a199-419a-9842-09915b8d2bd6"
+          - "?objDataTransfer | GMObject | dfb6a399-84d5-4bc1-83ab-5ff28461d6b6 | 94cd6ad0-d38b-4d58-841d-d63a3308675b"
+          - "?objDrawCommands | GMObject | 1aea597a-edf5-430c-b546-daaaebe194f1 | 8965135d-7146-4dee-9c68-b8e82e40c78b"
+      - "Micha Test | GMObject | f126e85d-1c8b-4988-8439-90182f650984 | 97a8d1c6-ceea-48f6-80d7-b18068e2aeb4": 
+          - "?objPostDraw | GMObject | b1d3019a-2b36-4fed-9b55-10c84efa7007 | 2ec33dff-b7fe-4c66-8038-25a997e3c178"
+          - "?objTestBackground | GMObject | 530058cb-0be3-4ab5-a51e-14d39714b499 | 3c9c42da-f55b-404d-960a-a61d1768489e"
+          - "?objTestMidGround | GMObject | a3c5546c-b188-4987-9cb3-2ce76c9f2d72 | 393b880b-b3d5-4b4a-996e-9927a24e993a"
+          - "?objTestSquare | GMObject | 01f80de9-303f-4b94-94aa-7a76605eb823 | 29891c4e-fec5-4f72-9307-f894caa1da21"
+      - "OtherRooms | GMObject | e3558355-c1bc-4d9a-88c8-25913cead9d3 | 4d9f0d4d-ab5a-495c-9696-b1b1d42c6b8c": 
+          - "Title | GMObject | eeb0d373-8dfc-41f5-afa4-5a6ae6450a4d | d2de040c-5982-4986-ab58-1ab78d47d7f6": 
+              - "?objTitleControl | GMObject | b660127a-c28b-411b-ba2e-21e2eb31b0da | d6158bfe-4c47-4dad-b90b-e15571476b60"
+          - "Instructions | GMObject | b5fa699b-70af-4c0e-a020-55337eada9a9 | 10df9287-667f-4a5b-bba2-28444ab4dc6e": 
+              - "?objInstructionsControl | GMObject | ddbbbfeb-14b6-4924-b216-1a3bb831c822 | d53e12b6-7394-47e6-8986-08d7b29c2733"
+          - "Credits | GMObject | 2593ca7a-670a-4923-871f-f7e0928a5c11 | a4d26432-7f11-4f2a-998d-866ece46a934": 
+              - "?objCreditsControl | GMObject | fd3166c8-464c-47d4-8b24-9f0078918479 | 53486ba1-1f5d-4bbb-9f45-43a9b7bf4a88"
+          - "Game Over | GMObject | 78910895-f619-4e73-b197-c7747e0d76d2 | 3e4a56b7-6d32-4494-8c53-8bae7af1d60e": 
+              - "?objGameOverControl | GMObject | cfae2722-8214-491b-8719-6b79e4b83d15 | 2f51b67a-fe22-47ff-91e6-abb38d678426"
+      - "?objBouncingBall | GMObject | ed6a0556-95e2-4c2a-b4f0-3e2e7977962e | 1786a9bc-1cf6-4dd1-8e8d-b1a1075dc8f7"
+      - "?objBallGoal | GMObject | 64185c91-2679-40b8-9ad1-e2cbc417de9e | 83ad5660-0b15-4c89-b4dd-e4b0f3512018"
+  - "rooms | GMRoom | 7a11bbf6-376d-4d84-9510-673321a53aeb | 41375a6f-2423-4d6c-b418-3969a41088f3": 
+      - "?roomInitialize | GMRoom | 979cb1a1-2199-4cd7-ba3e-1c231ab0c501 | 79fd09be-7b44-4e5c-830c-3f2d2de7346b"
+      - "?roomTitle | GMRoom | 7e44b944-391d-4ccf-9045-ac12d7d6db07 | d2d71be5-d034-4ea3-9b3b-21114a2f744f"
+      - "?roomMain | GMRoom | 57ab656f-bb0d-4e26-961b-b703225f165e | 48c8fd51-bdb4-40fe-962e-e2029905ec94"
+      - "?roomInstructions | GMRoom | 828169ce-ece1-48d3-b494-309151fa8f4d | db555fc5-ea30-4ac3-8ebe-2bdd95e83d40"
+      - "?roomCredits | GMRoom | f3141d07-3853-40dc-ac05-3feaced654f6 | ad14ff03-7833-4792-aaac-9ea09b9040cb"
+      - "?roomGameOver | GMRoom | f6ec44e1-eb42-4fbd-8be4-f532bf90a022 | 0b28a3f5-4103-4bee-bd31-092bd62e1485"
+      - "?roomMichaTest | GMRoom | 85e649ff-6362-424d-af42-424d8be9fa50 | fed0b603-c7e1-4aa3-832b-b880e9be2b51"
+      - "?roomMichaTest2 | GMRoom | 8b437814-5a24-4734-8953-0d7d701d9717 | 43a74918-5567-458d-b7ff-7749b99d89ec"
+  - "notes | GMNotes | 0b12f6ad-8821-4112-b17f-d89aaf7d6b45 | fefe3421-ee07-4758-8ce4-f4c93745d947": 
+      - "notes/DebugControls.yy | GMNotes | ff775cc3-9ffe-4075-a0d6-a77892a054bf | 630d7589-4f48-4ed4-bf59-32fae4fb74a4"
+      - "notes/note1.yy | GMNotes | 14337243-0ec4-4ba7-8414-2e7f09b7bc5f | 0fbb3444-85e1-46b5-b83b-5618c282e9ec"
+  - "datafiles | GMIncludedFile | 930d6ee2-b511-4616-bd7f-a3028eac0aab | 69feadfa-39a3-42f7-bd63-989c1b4d58ea": []
+  - "extensions | GMExtension | 6637ac59-649e-4c7f-8873-43a22ff51c22 | 2e11afa8-bce0-456f-bfe1-2fd32048df8d": []
+  - "options | GMOptions | f17c331f-fa1e-41e4-ad8d-02829f9d18f2 | 96ead9fe-b009-4d23-a5cd-a63341b0d340": 
+      - "options/linux/options_linux.yy | GMLinuxOptions | a9188620-a624-4a5a-83ae-a1b53faf038b | 60b5e1b6-17ee-418a-bfb6-da9dd25f87dd"
+      - "options/windows/options_windows.yy | GMWindowsOptions | cc98d028-7bdd-4680-85f3-c87a7baa481e | 49a860cd-d1b9-4d39-8f8c-7f3032668fa6"
+      - "options/mac/options_mac.yy | GMMacOptions | f418569b-3bdd-4706-a0e4-364317f54032 | 18370e0f-d636-4c70-8458-befdb9da697c"
+      - "options/html5/options_html5.yy | GMHtml5Options | 75ac291e-7061-4bcb-8e8a-3b3545332d41 | 41e48ef6-ce44-4249-a523-b1eeb1436a12"
+      - "options/ios/options_ios.yy | GMiOSOptions | 8427047f-9ef8-4c77-89f3-9c20623d07b6 | 1aff6807-f115-4788-8f04-e478a0864ca2"
+      - "options/tvos/options_tvos.yy | GMtvOSOptions | 93566aad-c3b3-48a9-8fa7-9c5ee19f74ac | 2bafbd67-b396-44ba-8edf-c01ceff5ace0"
+      - "options/amazonfire/options_amazonfire.yy | GMAmazonFireOptions | a128950b-5063-4876-b4a6-b99dbd2ea6d1 | 56d3da6b-c9e7-4bcb-b747-a05d2254fde0"
+      - "options/android/options_android.yy | GMAndroidOptions | e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f | a15edd37-7560-4341-8781-7d1a663876ca"
+  - "configs | GMConfig | eff7419d-03ff-40c8-928f-15b9b993ec52 | e1a76d18-acc3-48a2-a440-8d56cf4916cf": []
+projectExtras: 
+  IsDnDProject: false
+  configs: []
+  id: "88b2ffb5-5789-4f4e-8615-be44e469ab51"
+  modelName: GMProject
+  mvc: "1.0"
+  option_ecma: false
+  parentProject: 
+    alteredResources: 
+      - Key: "ed6a955d-5826-4f98-a450-10b414266c27"
+        Value: 
+          configDeltas: 
+            - inherited
+          id: "9bd1ab3c-60e4-4549-94eb-66952c8c9a08"
+          resourcePath: options/main/options_main.yy
+          resourceType: GMMainOptions
+    hiddenResources: []
+    id: "efd67c1c-17b8-4f1d-963a-2a400fce4a8b"
+    modelName: GMProjectParent
+    mvc: "1.0"
+    projectPath: "${base_project}"
+  tutorial: ""
+viewExtras: 
+  "0b12f6ad-8821-4112-b17f-d89aaf7d6b45": 
+    localisedFolderName: ResourceTree_Notes
+  "0e0d363e-3b5d-4a7b-846e-4ab8b08c3ae8": 
+    localisedFolderName: ResourceTree_Scripts
+  "0fe1a8fb-1ccb-4dbe-990a-2c65cf092d7d": 
+    localisedFolderName: ResourceTree_Sounds
+  "6637ac59-649e-4c7f-8873-43a22ff51c22": 
+    localisedFolderName: ResourceTree_Extensions
+  "7a11bbf6-376d-4d84-9510-673321a53aeb": 
+    localisedFolderName: ResourceTree_Rooms
+  "7f8742c5-79dc-4330-a359-da6d5716770b": 
+    localisedFolderName: ResourceTree_Objects
+  "930d6ee2-b511-4616-bd7f-a3028eac0aab": 
+    localisedFolderName: ResourceTree_IncludedFiles
+  "9c33fa96-5299-4504-82e7-c7ad7d2832f9": 
+    localisedFolderName: ResourceTree_Fonts
+  "9d13db9f-5b33-4f0b-8558-526da1fec75b": 
+    localisedFolderName: ResourceTree_Sprites
+  "bb73f25f-dc17-418b-ab56-43c41c8c8a48": 
+    localisedFolderName: ResourceTree_Shaders
+  "bec0ac80-1a64-4260-b826-609969d216a5": 
+    localisedFolderName: ResourceTree_Tilesets
+  "e576f901-0db6-473f-bc0a-6202c3759fe8": 
+    localisedFolderName: ResourceTree_Timelines
+  "eef5ad89-f51a-47bc-849d-c3d2b785e741": 
+    localisedFolderName: ResourceTree_Paths
+  "eff7419d-03ff-40c8-928f-15b9b993ec52": 
+    localisedFolderName: ResourceTree_Configs
+  "f17c331f-fa1e-41e4-ad8d-02829f9d18f2": 
+    localisedFolderName: ResourceTree_Options
+viewRoot: 
+  id: "d45483bc-c26b-4e06-b619-fa06332c2b5a"
+  mvc: "1.1"
+  resourceID: "0a00bfad-a7d8-4cc7-b771-55b84746101b"
