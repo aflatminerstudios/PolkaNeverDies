@@ -47,13 +47,13 @@ switch(act) {
     }    
     break;
   case "duck":
-    //Duck all characters;
+  /*  //Duck all characters;
     with (objBand) {
       scrDuckCharacter(self.id);
       scrDeactivateHeart(self.id); 
     }
     
-    break;
+    break;*/
   case "leftSpecial":    
   case "rightSpecial":
     //Currently does nothing

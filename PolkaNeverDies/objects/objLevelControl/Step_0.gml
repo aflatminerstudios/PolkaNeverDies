@@ -8,7 +8,7 @@ var totalMoved = objCamera.totalMoved - baseMove;
 if ((totalMoved - lastSpawn) > nextSpawn) {
 
   //What do you spawn?
-  var spawn_type = choose("rock", "duckable","rock", "duckable","rock", "duckable","rock", "duckable","rock", "duckable");
+  var spawn_type = choose("rock");//, "duckable","rock", "duckable","rock", "duckable","rock", "duckable","rock", "duckable");
   
   var objToSpawn;  
   var yOffset = 0;
