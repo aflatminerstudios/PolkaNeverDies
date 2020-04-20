@@ -73,6 +73,31 @@ if (jumping) {
   }
 }
 
+
+//Duck action
+if (ducking) {
+	if(sprite_index != duckSprite || duckCount == 0) {
+		sprite_index = duckSprite;
+		image_index = 0;	
+	}
+		
+	
+  x += duckSpeed;
+  duckCount++;
+  
+  //Ducking stops on beat for now
+  //Finish if you've reached goal
+  /*if (duckCount > duckSteps) {
+    ducking = false; 
+  }*/
+  
+  //Make sure you don't collide with something
+  while (place_meeting(x, y, objBlockingParent)) {   
+    x -= 1;
+  } 
+}
+
+
 if(!moveForward && !jumping && !ducking && sprite_index != idleSprite) {
 	sprite_index = idleSprite
 	image_index = 0;

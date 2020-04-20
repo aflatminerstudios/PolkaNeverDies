@@ -21,6 +21,9 @@ groundHeight = y;
 
 // For ducking
 ducking = false;
+duckBaseSpeed = 3;
+duckSpeed = duckBaseSpeed;
+duckCount = 0;
 
 
 //For spawning hearts (position)
