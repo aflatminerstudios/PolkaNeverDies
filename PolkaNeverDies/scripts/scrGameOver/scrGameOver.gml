@@ -6,8 +6,9 @@ var isWin = argument0;
 if (isWin) {
   with (objDataTransfer) {
     won = true;
-    numSurvivors = instance_number(objBand);;
-  }
+    numSurvivors = instance_number(objBand);
+    points += objBeat.winningPoints;
+  }  
 } else {
   with (objDataTransfer) {
     won = false;
