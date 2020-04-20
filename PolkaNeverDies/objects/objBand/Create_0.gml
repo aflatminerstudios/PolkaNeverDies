@@ -19,6 +19,9 @@ landing = false;
 targetHeight = y;
 groundHeight = y;
 
+// For ducking
+ducking = false;
+
 
 //For spawning hearts (position)
 heartX = 100;
