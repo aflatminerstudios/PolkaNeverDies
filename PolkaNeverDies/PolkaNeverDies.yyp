@@ -1207,6 +1207,14 @@
             }
         },
         {
+            "Key": "dced052b-c141-42e2-afb3-a99f22e28207",
+            "Value": {
+                "id": "0d233c35-74e1-4d29-a5d2-45a468786656",
+                "resourcePath": "sprites\/sprMoon\/sprMoon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dd2809c5-cf4b-4165-b89a-0552fb961fed",
             "Value": {
                 "id": "5d298b48-2bd4-419f-89ba-0c0a354d9e0b",
