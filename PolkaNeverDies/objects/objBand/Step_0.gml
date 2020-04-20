@@ -3,6 +3,12 @@
 
 //Move forward if should be moving
 if (moveForward) {
+	if(sprite_index != stepSprite || forwardCount == 0) {
+		sprite_index = stepSprite;
+		image_index = 0;	
+	}
+		
+	
   x += forwardSpeed;
   forwardCount++;
   //Finish if you've reached goal
@@ -21,8 +27,14 @@ if (moveForward) {
 //Jump!
 if (jumping) {
   
-  //Jump up until you reach height
+	//Jump up until you reach height
   if (!landing) {
+		// Set the sprite to be the jumping upward sprite
+		if(sprite_index != jumpSprite) {
+			sprite_index = jumpSprite;
+			image_index = 0;
+		}
+		
     //Only move horizontally if it wouldn't make you run through object
     if (!place_meeting(x + jumpHSpeed, y - jumpVSpeed, objBlockingParent)) {
       x += jumpHSpeed;
@@ -36,7 +48,11 @@ if (jumping) {
     }
       
   } else {
-  
+		// Set the sprite to be the jumping downward (falling) sprite
+		if(sprite_index != fallSprite) {
+		sprite_index = fallSprite;
+		image_index = 0;
+		}
     
     x += jumpHSpeed;
     //Slide if encountering object
@@ -54,5 +70,9 @@ if (jumping) {
       jumpCount = 0;
     }
   }
-  
+}
+
+if(!moveForward && !jumping && !ducking && sprite_index != idleSprite) {
+	sprite_index = idleSprite
+	image_index = 0;
 }

@@ -48,6 +48,14 @@
             "objectId": "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b",
             "propertyId": "db6b7f68-017e-40f8-9662-fd057210fe27",
             "value": "sprTromboneDuck"
+        },
+        {
+            "id": "cfb24076-3ba0-431d-8772-80bbac73a2d3",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b",
+            "propertyId": "6723c682-c898-4362-9565-2f6395a7531b",
+            "value": "sprTromboneFall"
         }
     ],
     "parentObjectId": "7ac4a5c1-1fab-41a1-9786-fabfc70e3d1b",

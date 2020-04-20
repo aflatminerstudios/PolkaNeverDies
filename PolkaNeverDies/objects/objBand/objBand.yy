@@ -95,6 +95,20 @@
             "varType": 5
         },
         {
+            "id": "6723c682-c898-4362-9565-2f6395a7531b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "sprTubaFall",
+            "varName": "fallSprite",
+            "varType": 5
+        },
+        {
             "id": "db6b7f68-017e-40f8-9662-fd057210fe27",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",

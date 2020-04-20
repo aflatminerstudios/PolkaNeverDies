@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "6869f3a1-cd5c-49e9-b0ea-5fdf78146bad",
+            "Value": {
+                "id": "ac38f709-d14d-49a0-b410-d9a47fef3a6c",
+                "resourcePath": "sprites\/sprAccordionFall\/sprAccordionFall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "690e7f25-6464-4e2f-8333-9fc072b8ac29",
             "Value": {
                 "id": "f00cbb79-e12c-48ac-bd45-5d3f508e1f69",
@@ -951,6 +959,14 @@
             }
         },
         {
+            "Key": "c33739c8-fbfc-449d-947e-0a95094212e6",
+            "Value": {
+                "id": "bc90a350-3dd6-4c34-acdd-a94d5ab365b3",
+                "resourcePath": "sprites\/sprDrumFall\/sprDrumFall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c489c529-2217-4c8c-b7c9-f4fb2663383d",
             "Value": {
                 "id": "abf8465f-1d1d-4168-aa4f-ab59c49d8574",
@@ -980,6 +996,14 @@
                 "id": "49a860cd-d1b9-4d39-8f8c-7f3032668fa6",
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cce207b0-7664-4ff6-b097-51d29da77b09",
+            "Value": {
+                "id": "d75743b5-4f29-445a-89a3-d8d8214c167b",
+                "resourcePath": "sprites\/sprTromboneFall\/sprTromboneFall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1076,6 +1100,14 @@
                 "id": "94cd6ad0-d38b-4d58-841d-d63a3308675b",
                 "resourcePath": "objects\/objDataTransfer\/objDataTransfer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e0c94ed8-84c6-4638-a285-dd11a8b0e18a",
+            "Value": {
+                "id": "e7a538c5-e909-486f-85f4-b74becbe9b08",
+                "resourcePath": "sprites\/sprTubaFall\/sprTubaFall.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
