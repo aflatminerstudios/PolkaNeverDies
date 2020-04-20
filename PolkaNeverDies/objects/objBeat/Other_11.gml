@@ -38,3 +38,10 @@ if (activeMeasure) {
 with (objHeart) {
   scrBeatHeart(self.id);
 }
+
+
+with (objBand) {
+  if (ducking) {
+    ducking = false; 
+  }
+}
