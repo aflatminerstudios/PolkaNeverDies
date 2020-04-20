@@ -58,6 +58,7 @@ switch(act) {
   case "rightSpecial":
     //Currently does nothing
     with (objBand) {
+      effect_create_above(ef_smokeup, x, y + (bbox_top - bbox_bottom), 1, c_gray);
       scrDeactivateHeart(self.id); 
     }
     break;
