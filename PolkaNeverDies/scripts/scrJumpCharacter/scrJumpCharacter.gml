@@ -12,7 +12,7 @@ with (char) {
     landing = false;
     //Make sure you jump higher than current position
     targetHeight = y - jumpHeight;
-  
+    jumpHSpeed = baseJumpHSpeed;
     //It takes jumpHeight / jumpVSpeed steps to get to top
     //So, you go jumpHSpeed * jumpHeight / jumpVSpeed horizontal to top
     //Then double that to get to bottom
