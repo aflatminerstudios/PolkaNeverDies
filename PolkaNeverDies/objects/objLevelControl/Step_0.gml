@@ -8,18 +8,23 @@ var totalMoved = objCamera.totalMoved - baseMove;
 if ((totalMoved - lastSpawn) > nextSpawn) {
 
   //What do you spawn?
-  var spawn_type = choose("rock");
+  var spawn_type = choose("rock", "duckable");
   var objToSpawn;  
+  var yOffset = 0;
   switch(spawn_type) {
     case "rock":
       objToSpawn = objJumpable;
+      break;
+    case "duckable":
+      objToSpawn = objDuckable;
+      yOffset = 20;
       break;
     default:
       objToSpawn = objJumpable;    
   }
   
   //Create it off the right of the screen
-  instance_create_layer( 2112, ground, layer, objToSpawn);
+  instance_create_layer( 2112, ground - yOffset, layer, objToSpawn);
     
   //And set some variables
   lastSpawn = totalMoved;
