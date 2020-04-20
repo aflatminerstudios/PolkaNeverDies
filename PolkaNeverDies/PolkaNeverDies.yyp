@@ -743,6 +743,14 @@
             }
         },
         {
+            "Key": "96059523-9ddf-47ba-a834-c8615f7fe59e",
+            "Value": {
+                "id": "e63d1975-ea26-4765-a6c2-0adac4e538fb",
+                "resourcePath": "sprites\\sprFinish\\sprFinish.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "979cb1a1-2199-4cd7-ba3e-1c231ab0c501",
             "Value": {
                 "id": "79fd09be-7b44-4e5c-830c-3f2d2de7346b",
