@@ -22,7 +22,7 @@ if(global.prevAspectRatio != global.aspectRatio) {
 
 if(room == roomMain || 
 	 room == roomMichaTest ||
-	 room == roomMichaTest) {
+	 room == roomMichaTest2) {
 	// Select the proper viewport for the current aspect ratio
 	if(global.aspectRatio == AspectRatio.FULL_SCREEN) {
 		view_visible[0] = true;
