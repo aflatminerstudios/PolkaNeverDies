@@ -21,6 +21,6 @@ with (char) {
   if (place_meeting(x + xChange, y, objDuckable)) {
     var nearest = instance_place(x + xChange, y, objDuckable);
     var hPixels = (nearest.bbox_left - bbox_left) + nearest.sprite_width;
-    duckSpeed = ceil(hPixels / numSteps);
+    duckSpeed = ceil(hPixels / numSteps) + 2;
   }
 }

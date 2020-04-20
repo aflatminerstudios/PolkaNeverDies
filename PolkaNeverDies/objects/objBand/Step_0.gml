@@ -93,6 +93,7 @@ if (ducking) {
   
   //Make sure you don't collide with something
   while (place_meeting(x, y, objBlockingParent)) {   
+    show_debug_message("Moving back");
     x -= 1;
   } 
 }

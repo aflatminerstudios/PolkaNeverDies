@@ -28,9 +28,9 @@ if ((totalMoved - lastSpawn) > nextSpawn) {
 }
 
 
-//If moved enough to reach goal, end game
-if (totalMoved > levelEnd[curLevel]) {
-  scrGameOver(true); 
+//If moved enough, create goal
+if (totalMoved > levelEnd[curLevel] && instance_number(objFinish) == 0) {
+  instance_create_depth( 2112, 1024, depth, objFinish);    
 }
 
 //If no more band members, end game
