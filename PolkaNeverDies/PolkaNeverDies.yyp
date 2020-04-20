@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0769640e-e526-419e-8838-5138e6563ab4",
+            "Value": {
+                "id": "a3a81709-df59-4cd4-a580-f00835337217",
+                "resourcePath": "sprites\/sprArrowRight\/sprArrowRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ab90979-086d-4a96-99a7-71144a8d945c",
             "Value": {
                 "id": "234e9ace-a705-4945-b711-5095b2dcc719",
@@ -559,6 +567,14 @@
             }
         },
         {
+            "Key": "773dd82b-f30b-49cc-9cb7-7ed089715d3b",
+            "Value": {
+                "id": "7617b01b-1922-4e43-b3a5-d043f07f696d",
+                "resourcePath": "sprites\/sprArrowLeft\/sprArrowLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7834aa23-f688-43de-89ed-c1e4abf15fc6",
             "Value": {
                 "id": "0b7fae2c-b37b-4e59-8d45-25a7b1c32db2",
@@ -615,6 +631,14 @@
             }
         },
         {
+            "Key": "7c1a87fe-8213-40e0-b4bd-90f42a269e6d",
+            "Value": {
+                "id": "8f59267b-51df-4a95-99fc-7d89e7c1acff",
+                "resourcePath": "sprites\/sprArrowUp\/sprArrowUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d04adcc-b5e2-43fe-9fd2-609fd2b5d066",
             "Value": {
                 "id": "3db0011e-61d9-4d73-aa1f-3ab83f2307d9",
@@ -644,6 +668,14 @@
                 "id": "eba688ff-15bd-49e7-8d15-0a6d44ba2757",
                 "resourcePath": "views\/7f8742c5-79dc-4330-a359-da6d5716770b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "803979ae-960d-4bf4-a06e-11786206be98",
+            "Value": {
+                "id": "717c56f2-f7c1-4b00-ac50-ca7a80a6980e",
+                "resourcePath": "sprites\/sprArrow\/sprArrow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1044,6 +1076,14 @@
                 "id": "abf8465f-1d1d-4168-aa4f-ab59c49d8574",
                 "resourcePath": "scripts\/scrChangeBeat\/scrChangeBeat.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c5539cd7-e0b5-40c0-9dcc-6c0e23852f7a",
+            "Value": {
+                "id": "48809826-059b-42f5-9e5b-f6e4d579aefa",
+                "resourcePath": "sprites\/sprArrowDown\/sprArrowDown.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
