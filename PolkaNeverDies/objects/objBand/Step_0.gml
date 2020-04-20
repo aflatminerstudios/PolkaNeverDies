@@ -18,8 +18,12 @@ if (moveForward) {
   
   //Make sure you don't collide with something
   while (place_meeting(x, y, objBlockingParent)) {   
-    x -= 1;
-  } 
+    var c = instance_place(x, y, objBlockingParent);
+    dir = sign(c.x - x);
+      
+    
+    x -= 1 * dir;
+  }
 }
 
 
@@ -93,7 +97,6 @@ if (ducking) {
   
   //Make sure you don't collide with something
   while (place_meeting(x, y, objBlockingParent)) {   
-    show_debug_message("Moving back");
     x -= 1;
   } 
 }
