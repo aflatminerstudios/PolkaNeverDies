@@ -33,7 +33,7 @@ with (char) {
       
       //Loop until no collision
       while (place_meeting(simX, simY, objJumpable)) {       
-        jumpHSpeed += 2;
+        jumpHSpeed += 1;
         simX = x;
         simY = y;
         while (simY >= targetHeight) {          

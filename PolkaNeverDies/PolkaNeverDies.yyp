@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1802e5bd-e01f-45f5-9ea6-c5c22983f279",
+            "Value": {
+                "id": "7d48a70b-bb51-4b27-aeb8-923d5060bb58",
+                "resourcePath": "objects\\objFinish\\objFinish.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1982e406-ef0f-4a22-885f-e696e5903784",
             "Value": {
                 "id": "adfd6822-cc13-4ed9-93df-c728e21807c1",
@@ -1439,8 +1447,8 @@
         "f17c4729-1c78-4895-9616-9d4cbd2a19fc",
         "1fe02ac9-5fd7-4cfd-995d-c1f180964dee",
         "d122d718-df05-4914-a027-801fb0b22138",
-        "8659c2ed-8477-48d0-bd6c-4893945ff203",
         "4eccb319-88f7-41e5-9465-4b5c6074b5c4",
+        "8659c2ed-8477-48d0-bd6c-4893945ff203",
         "44fadf39-b4ff-4751-af35-529fa7071ce9",
         "3d0f5bfe-4a0a-45d3-82ef-f78921de3afe",
         "fc8bd5c9-4c30-4487-b7ae-79ed15dc7ccd",
