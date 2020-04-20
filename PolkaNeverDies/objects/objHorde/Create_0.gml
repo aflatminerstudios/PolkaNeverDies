@@ -3,7 +3,7 @@
 
 moveSpeed = 0.5;
 maxSpeed = 1.50;
-addSpeed = 0.02;
+addSpeed = 0.015;
 
 
 minDistance = 500;
