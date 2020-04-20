@@ -6,6 +6,6 @@ var which = argument0;
 
 with (which) {
   
-  image_speed = 3;
-
+  image_speed = 2//3;
+	image_index = 0;
 }
