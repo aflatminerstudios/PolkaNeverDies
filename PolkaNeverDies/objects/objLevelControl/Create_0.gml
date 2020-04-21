@@ -19,7 +19,7 @@ hordeAdd[0] = 0.01;
 hordeMinDist[0] = 500;
 
 //Ground position (important for spawning)
-ground = 800;
+ground = 970;
 
 //What count did the last obstacle spawn on?
 lastSpawn = 0;

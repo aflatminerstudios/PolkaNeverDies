@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0e94d760-5cbe-4d03-a6b4-36ed8f41708c",
+            "Value": {
+                "id": "42a89785-3fc5-465e-acfc-22a5f04feb48",
+                "resourcePath": "fonts\\fntGameOverHeading\\fntGameOverHeading.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0fe1a8fb-1ccb-4dbe-990a-2c65cf092d7d",
             "Value": {
                 "id": "5c0b2dc2-6382-48d5-b23b-dd021dedfd57",
@@ -228,6 +236,14 @@
                 "id": "62365cc3-97b4-4fc8-880e-c24110737600",
                 "resourcePath": "sprites\/sprCamera\/sprCamera.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "23c1536f-f55d-4df3-a607-64adf6522f8a",
+            "Value": {
+                "id": "3da8434c-e466-47ac-815a-55795f48fef5",
+                "resourcePath": "fonts\\fntGameOverSubheading\\fntGameOverSubheading.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -524,6 +540,14 @@
                 "id": "5b0c8bc4-6069-4de9-a91d-3ffdc3fb5034",
                 "resourcePath": "sprites\/sprTestBG2\/sprTestBG2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "601874f0-6d88-459d-af39-294670171bf1",
+            "Value": {
+                "id": "82965d47-b2f6-48ab-acd7-2fe2f0858ed7",
+                "resourcePath": "fonts\\fntGameOver\\fntGameOver.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1308,6 +1332,14 @@
                 "id": "4077fac2-a9f6-48d8-8853-73a5b0ed4308",
                 "resourcePath": "objects\/objBandUp\/objBandUp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dce2bae6-84ce-40e3-b03c-b43f100c1e66",
+            "Value": {
+                "id": "6d7ca056-d2e8-46ec-83fa-6ca62a28ac28",
+                "resourcePath": "sprites\\sprAnyKey\\sprAnyKey.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

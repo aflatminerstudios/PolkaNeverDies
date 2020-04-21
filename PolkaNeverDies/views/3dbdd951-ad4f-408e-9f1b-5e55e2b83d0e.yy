@@ -12,7 +12,8 @@
         "773dd82b-f30b-49cc-9cb7-7ed089715d3b",
         "0769640e-e526-419e-8838-5138e6563ab4",
         "7c1a87fe-8213-40e0-b4bd-90f42a269e6d",
-        "c5539cd7-e0b5-40c0-9dcc-6c0e23852f7a"
+        "c5539cd7-e0b5-40c0-9dcc-6c0e23852f7a",
+        "dce2bae6-84ce-40e3-b03c-b43f100c1e66"
     ],
     "filterType": "GMSprite",
     "folderName": "Title\/Credits",
