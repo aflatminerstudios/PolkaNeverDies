@@ -1335,6 +1335,14 @@
             }
         },
         {
+            "Key": "dce2bae6-84ce-40e3-b03c-b43f100c1e66",
+            "Value": {
+                "id": "6d7ca056-d2e8-46ec-83fa-6ca62a28ac28",
+                "resourcePath": "sprites\\sprAnyKey\\sprAnyKey.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dced052b-c141-42e2-afb3-a99f22e28207",
             "Value": {
                 "id": "0d233c35-74e1-4d29-a5d2-45a468786656",

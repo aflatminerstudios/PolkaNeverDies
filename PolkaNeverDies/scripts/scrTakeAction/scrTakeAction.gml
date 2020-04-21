@@ -65,7 +65,7 @@ switch(act) {
   case "badup":
   case "baddown":  
     //There was a bad input, so blat and don't move
-    scrPlayBadNote(act);    
+    //scrPlayBadNote(act);    
     break;
   default:
     //Should not get here, turn on debug msg if you think it's happening

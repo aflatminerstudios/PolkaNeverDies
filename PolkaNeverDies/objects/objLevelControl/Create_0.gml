@@ -25,7 +25,7 @@ ground = 970;
 lastSpawn = 0;
 
 //When will the next obstacle spawn?
-nextSpawn = irandom_range(10, 15);
+nextSpawn = irandom_range(100, 500);
 
 //for gameover
 with (objDataTransfer) {
