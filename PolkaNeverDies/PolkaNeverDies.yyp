@@ -1215,6 +1215,14 @@
             }
         },
         {
+            "Key": "c7f099b5-eedf-4ba6-adea-a7def24f631e",
+            "Value": {
+                "id": "473a6bc0-7911-460a-bae0-d8f3f3956d1d",
+                "resourcePath": "objects\\objMetronome\\objMetronome.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c9887765-508a-4975-bd2f-4c6062227fd2",
             "Value": {
                 "id": "ad3f933f-0e2e-4b20-939e-6c27c19f4ae4",
