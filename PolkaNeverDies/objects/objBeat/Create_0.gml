@@ -16,7 +16,7 @@ playSong = true;
 
 
 //Sets info about song
-song = sndFinalMusic_34_120;
+song = sndFinalMusic_34_120_WithExtraIntroMeasure;//sndFinalMusic_34_120;
 measure = 3;
 bpm = 120;
 measuresInSong = 20;

@@ -122,7 +122,7 @@
             "Key": "0e94d760-5cbe-4d03-a6b4-36ed8f41708c",
             "Value": {
                 "id": "42a89785-3fc5-465e-acfc-22a5f04feb48",
-                "resourcePath": "fonts\\fntGameOverHeading\\fntGameOverHeading.yy",
+                "resourcePath": "fonts\/fntGameOverHeading\/fntGameOverHeading.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -242,7 +242,7 @@
             "Key": "23c1536f-f55d-4df3-a607-64adf6522f8a",
             "Value": {
                 "id": "3da8434c-e466-47ac-815a-55795f48fef5",
-                "resourcePath": "fonts\\fntGameOverSubheading\\fntGameOverSubheading.yy",
+                "resourcePath": "fonts\/fntGameOverSubheading\/fntGameOverSubheading.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -410,7 +410,7 @@
             "Key": "4117dd36-ab43-45f1-a7ac-315ac18fcee1",
             "Value": {
                 "id": "1bdbf21d-b10d-429d-b00f-b7d5400c07a2",
-                "resourcePath": "sounds\\sndFinalMusic_34_120\\sndFinalMusic_34_120.yy",
+                "resourcePath": "sounds\/sndFinalMusic_34_120\/sndFinalMusic_34_120.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -554,7 +554,7 @@
             "Key": "601874f0-6d88-459d-af39-294670171bf1",
             "Value": {
                 "id": "82965d47-b2f6-48ab-acd7-2fe2f0858ed7",
-                "resourcePath": "fonts\\fntGameOver\\fntGameOver.yy",
+                "resourcePath": "fonts\/fntGameOver\/fntGameOver.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -927,6 +927,14 @@
             }
         },
         {
+            "Key": "99d72949-5b0b-4fbc-9478-c1bf13a0b082",
+            "Value": {
+                "id": "28a6aa3a-a918-4fba-abda-f2b2d85dc035",
+                "resourcePath": "sounds\/sndFinalMusic_34_120_WithExtraIntroMeasure\/sndFinalMusic_34_120_WithExtraIntroMeasure.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9b26bc27-0fbd-483e-b657-0f86ad0478e0",
             "Value": {
                 "id": "96156ba3-d7d2-4f3a-9589-ac40aedc858b",
@@ -1218,7 +1226,7 @@
             "Key": "c7f099b5-eedf-4ba6-adea-a7def24f631e",
             "Value": {
                 "id": "473a6bc0-7911-460a-bae0-d8f3f3956d1d",
-                "resourcePath": "objects\\objMetronome\\objMetronome.yy",
+                "resourcePath": "objects\/objMetronome\/objMetronome.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1354,7 +1362,7 @@
             "Key": "dce2bae6-84ce-40e3-b03c-b43f100c1e66",
             "Value": {
                 "id": "6d7ca056-d2e8-46ec-83fa-6ca62a28ac28",
-                "resourcePath": "sprites\\sprAnyKey\\sprAnyKey.yy",
+                "resourcePath": "sprites\/sprAnyKey\/sprAnyKey.yy",
                 "resourceType": "GMSprite"
             }
         },
