@@ -19,13 +19,13 @@ hordeAdd[0] = 0.01;
 hordeMinDist[0] = 500;
 
 //Ground position (important for spawning)
-ground = 800;
+ground = 970;
 
 //What count did the last obstacle spawn on?
 lastSpawn = 0;
 
 //When will the next obstacle spawn?
-nextSpawn = irandom_range(100, 500);
+nextSpawn = irandom_range(10, 15);
 
 //for gameover
 with (objDataTransfer) {

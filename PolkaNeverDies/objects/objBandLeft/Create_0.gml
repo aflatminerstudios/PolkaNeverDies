@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 event_inherited();
-forwardSpeed = 7;
+forwardSpeed = 5;
 forwardSteps = room_speed/4;
 
 heart = instance_create_layer(heartX - sprite_get_width(sprHeartEmpty) / 2, heartY, layer, objHeart);

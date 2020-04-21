@@ -12,8 +12,9 @@ if (moveForward) {
   x += forwardSpeed;
   forwardCount++;
   //Finish if you've reached goal
-  if (forwardCount > forwardGoal) {
+  if (forwardCount > (room_speed * 60/objBeat.bpm)) {
     moveForward = false; 
+    forwardCount = 0;
   }
   
   //Make sure you don't collide with something
