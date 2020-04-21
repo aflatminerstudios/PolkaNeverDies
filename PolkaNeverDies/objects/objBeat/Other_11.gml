@@ -6,6 +6,10 @@ curBeat += 1;
 curBeat %= measure;
 totalBeat += 1;
 
+with (objHorde) {
+  go = true; 
+}
+
 //Get points because you're still surviving
 objDataTransfer.points += pointsPerBeat * instance_number(objBand);
 

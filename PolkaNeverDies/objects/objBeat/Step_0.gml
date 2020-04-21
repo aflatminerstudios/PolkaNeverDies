@@ -35,7 +35,7 @@ if(trackPosition >= loopLength + introLength) {
 }
 
 
-var audioMeasure = floor(trackPosition/measureLength);
+audioMeasure = floor(trackPosition/measureLength);
 //show_debug_message("   ===Micha=== audioMeasure, curMeasure: " + string(audioMeasure) + ", " + string(curMeasure))
 if(audioMeasure != curMeasure)
 	event_user(0);

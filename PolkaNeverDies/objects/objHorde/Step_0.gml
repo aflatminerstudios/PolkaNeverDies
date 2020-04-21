@@ -13,10 +13,11 @@ with(objBand) {
 
 // Average out the x position
 bandCenter = bandCenter/bandCount;
-
-var dist = bandCenter - x;
-if (dist > minDistance) {
-  x += moveSpeed * dist/minDistance;   
-} else {
-  x += moveSpeed; 
+if (go) {
+  var dist = bandCenter - x;
+  if (dist > minDistance) {
+    x += moveSpeed * dist/minDistance;   
+  } else {
+    x += moveSpeed; 
+  }
 }
