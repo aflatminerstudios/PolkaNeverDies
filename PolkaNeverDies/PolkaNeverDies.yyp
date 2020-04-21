@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "4117dd36-ab43-45f1-a7ac-315ac18fcee1",
+            "Value": {
+                "id": "1bdbf21d-b10d-429d-b00f-b7d5400c07a2",
+                "resourcePath": "sounds\\sndFinalMusic_34_120\\sndFinalMusic_34_120.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "4472417c-c6e9-4838-9257-47cfb4e52cfb",
             "Value": {
                 "id": "00a0d6e5-a9d6-4143-82f5-fdc9b12aad35",
